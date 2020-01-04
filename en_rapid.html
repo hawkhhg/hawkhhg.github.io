@@ -1,0 +1,762 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Welcome to Huang Huaguo research  group/>
+    <meta name="description" content="Welcome to the forestry quantitative remote sensing laboratory of Huang Huaguo research group" />
+    <title>Welcome to huang huaguo research  group</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+           *{margin:0;padding:0;font-family:"Microsoft  Accor black";}
+           a{cursor:pointer;text-decoration:none;outline:none;hidefocus:true}
+           img{border:0;}
+          .soft_function{width:1000px;height:636px;margin:0 auto}
+          .soft_con_icon{width:1000px;height:190px;display:block;padding-top:10px}
+          .soft_con_icon ul li{float:left;display:block;list-style:none;height:180px;width:150px; margin:0 25px;}
+          .soft_con_icon ul li a p{color:#333333;font-size:20px;font-family:"Microsoft  Accor black";text-align:center}
+          .soft_con{height:296px;width:1000px}
+          .soft_con1{height:20px;width:1000px;background:url(images/line_select_001.gif)}
+          .soft_con2{height:275px;width:998px;border-bottom:1px solid #d4d4d4;border-left:1px solid #d4d4d4;border-right:1px solid #d4d4d4;background:#fcfcfc}
+          .soft_con2 div{float:left;margin:8px 0px;}
+          .function1{height:259px;width:249px;border-right:1px dashed #d4d4d4}
+          .function2{height:259px;width:248px;}
+          .soft_con2 div img{margin:20px 50px 0px 49px}
+          .soft_con2 div p{text-align:center}
+          .p1{font-size:20px;color:#33CC00;font-family:"Microsoft  Accor black";line-height:45px}
+          .p2{font-size:14px;color:#33CC00;font-family:"Microsoft  Accor black";width:208px;height:50px;line-height:24px;margin:auto;overflow: hidden;}
+
+    body {
+	background-color: #FFF;
+}
+body,td,th {
+	color: #000;
+}
+</style>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+  <body>
+
+
+     <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+                  <!-- Logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
+                <a class="navbar-brand image-logo" href="http://www.3dforest.cn/en_index.html"><img src="img/huanglab.png" alt="Remote sensing of forest" /></a>
+            </div>
+            <!-- /Logo -->
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-sm" href="en_index.html" target="_blank" onClick="_hmt.push(['_trackEvent', 'navbar', 'click', 'navbar-Home'])">Home</a>
+        </div>
+        <div class="navbar-collapse collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="hidden-sm hidden-md"><a href="en_direction.html"  target="_blank" onClick="_hmt.push(['_trackEvent', 'navbar', 'click', 'v2doc'])">Directions</a></li>
+          <li class="hidden-sm hidden-md"><a href="en_publication.html"  target="_blank" onClick="_hmt.push(['_trackEvent', 'navbar', 'click', 'v2doc'])">Publications</a></li>
+            
+           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Group Members<b class="caret"></b> </a>
+	<ul class="dropdown-menu">
+        <li><a href="en_people1.html" target="_blank">Current</a></li>
+        <li><a href="en_people2.html" target="_blank">Graduated</a></li>
+	</ul>
+	</li>
+            <li><a href="cn_activity.html" target="_blank">Group activities</a></li>
+                   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Thinking<b class="caret"></b> </a>
+	<ul class="dropdown-menu">
+        <li><a href="en_history.html" target="_blank">History of Remote sensing</a></li>
+		<li><a href="en_fighting.html" target="_blank">Scientific stories</a></li>
+	</ul>
+	</li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Data&Software<b class="caret"></b> </a>
+	<ul class="dropdown-menu">
+		<li><a href="en_data.html" target="_blank">Data</a></li>
+		<li><a href="en_rapid.html" target="_blank">RAPID Model</a></li>
+	</ul>
+	</li>
+          </ul>
+          <ul class="nav navbar-nav hidden-sm" style="float:right">
+            <li><a href="rapid.html">中文</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+</br></br></br>
+
+
+    <div class="container">
+         <div class="row">
+              <div class="col-lg-3" id="Scrollspy">
+                   <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="6">
+                       <li class="active"><a href="#section1">RAPID Introduction</a></li>
+                       <li class=><a href="#section2">Three-dimensional scenes</a></li>
+                       <li class=><a href="#section3">One simple case</a></li>
+                       <li class=><a href="#section4">Training</a></li>
+                       <li class=><a href="#section5">Videos</a></li>
+                       <li class=><a href="#section6">Download</a></li>
+                       <li class=><a href="#section7">Manuals</a></li>                       
+                       <li class=><a href="#section8">Message Board</a></li>  
+                   </ul>
+              </div>
+              <div class="col-lg-9">
+                   <h2 id="section1">RAPID model description</h2>
+                        <div>
+                            <p text-align="justify"><strong>(1) Model development history: 
+                            </strong>
+                          <p>RAPID  is a radiosity-based model using computer graphics methods to compute RT within  and above 3D vegetated scenes from visible/near infrared (VNIR) to thermal  infrared (TIR), and microwave (MV) parts of the electromagnetic spectrum (<a href="#_ENREF_6" title="Huang, 2016 #68">Huang 2016</a>; <a href="#_ENREF_10" title="Huang, 2013 #59">Huang et al. 2013</a>). Figure 1 shows the history of the model development. <br>
+                              The DIANA model (<a href="#_ENREF_5" title="Goel, 1991 #70">Goel et al. 1991</a>) is the oldest predecessor, which generated  realistic maize canopies and simulated the RT using computer graphics and  radiosity theories. The principal radiosity equation is as follows:<br>
+                              <img src="en_rapid_clip_image002.gif" alt="" width="197" height="23" border="0">,                                      (1)<br>
+                              Where<br>
+  <img src="en_rapid_clip_image004.gif" alt="" width="116" height="41" border="0">,                                              (2)<br>
+  <em>Bi</em> is  the radiosity on surface element <em>i</em>, defined as the total radiation flux  density leaving that surface (unit is Wm-2). <em>Ei</em> is the surface emission, and <em>χi</em> is the surface reflection or  transmission coefficient which depends on the relative orientation (normal  vector <img src="en_rapid_clip_image006.gif" alt="" width="13" height="19" border="0">) of surface <em>i</em> and <em>j</em> to each other.  The <em>Fij</em> is the form factor or “view factor” which specifies  the fraction of radiant flux leaving another surface <em>j</em> that reaches the surface <em>i</em>,  and <em>N</em> is the number of discrete  two-sided surface elements to be considered. <br>
+  <img src="img/logoRAPID.jpg" alt="" width="600" height="240" border="0"> <br>
+  <strong>Figure 1.</strong> The development history of  radiosity-graphics-combined models<br>
+                              By extending DIANA to  hyperspectral regions with field of view functions, the  radiosity-graphics-based model (RGM) was developed to simulate RT in  semi-desert vegetation scenes (<a href="#_ENREF_16" title="Qin, 2000 #63">Qin and Gerstl 2000</a>). By including thermal emission in <em>Ei</em>,  the thermal version RGM (TRGM) was developed to simulate directional brightness  temperature (DBT) over crop canopies (<a href="#_ENREF_15" title="Liu, 2007 #71">Liu et al. 2007</a>; <a href="#_ENREF_9" title="Huang, 2011 #72">Huang et al. 2011</a>). Recently, we embedded energy budget into TRGM,  which does not rely on outside component temperature inputs (<a href="#_ENREF_1" title="Bian, 2017 #56">Bian et al. 2017</a>).<br>
+                              To overcome the polygon  number limitation (~50,0000 in 32 bit operation system), RGM was extended to  large-scale forest canopies using sub-scene division method (<a href="#_ENREF_8" title="Huang, 2009 #49">Huang et al. 2009</a>). This version has been verified in the context of  the fourth RAdiation transfer Model Intercomparison (RAMI-IV) (marked as RGM2).  To save time, parallel computation of sub-scenes was implemented using a few  personal computers (PC). However, one sub-scene failure due to unexpected bugs would  lead to the failure to merge the whole scene, which is still not ideal for  users.<br>
+                              In 2013, we invented RAPID  for large-scale forest scenes, which is greatly easier to use and faster than  RGM2. RAPID is capable of simulating the Bidirectional Reflectance Factor (BRF)  over various kinds of vegetated scenes (homogeneous or heterogeneous). Unlike thousands  of polygons used in RGM2, RAPID uses dozens of porous objects to represent a  mass of grassland or cropland or tree crowns. This allows for improved  computation efficiency without loss of accuracy. <br>
+                              In 2016, RAPID2 (<a href="#_ENREF_6" title="Huang, 2016 #68">Huang 2016</a>) was released including new functions of  atmospheric RT by linking the Vector LInearized Discrete Ordinate Radiative Transfer (V-LIDORT) model (<a href="#_ENREF_11" title="Huang, 2017 #57">Huang et al. 2017</a>), DBT simulation in TIR by updating TRGM code (<a href="#_ENREF_13" title="Huang, 2015 #88">Huang et al. 2015</a>) and backscattering simulation in MV (<a href="#_ENREF_7" title="Huang, 2017 #69">Huang 2018</a>), as well as lidar point cloud and waveform  simulations (<a href="#_ENREF_12" title="Huang, 2013 #50">Huang and Wynne 2013</a>). RAPID2 has been used to support comparing LAI  inversion algorithms (<a href="#_ENREF_2" title="Cao, 2015 #74">Cao et al. 2015</a>), validating a new kernel-based BRDF model (<a href="#_ENREF_4" title="Dong, 2018 #89">Dong et al. 2018</a>), validating an analytic vegetation-soil-road-mixed  DBT model (<a href="#_ENREF_3" title="Cao, 2014 #73">Cao et al. 2014</a>), and simulating continuous remote sensing images (<a href="#_ENREF_14" title="Huang, 2015 #76">Huang and Lian 2015</a>). Figure 2 shows the easy-to-use Graphical User  Interface (GUI) of RAPID2. Users can freely define 3D objects (tree specie,  crop type, building and water body) and place them on the target regions. A  parameter editor is integrated in the GUI to modify the key parameters like  height, width, orientation, radius, and so on. The generated 3D scenes and  output radiosity values can also be rendered as grey or colour images in arbitrary  view directions in the GUI. Two simulated large-scale images (0.6 km and 1 km)  using sub-division strategy are shown in Figure 3. The 1-km scene consists of  90% mixed birch and larch forests and 10% of roads, river, and buildings; while  the 600-m scene includes both clear-cutting strips and birch forests. More  details can be found in (<a href="#_ENREF_14" title="Huang, 2015 #76">Huang and Lian 2015</a>). Although these images demonstrated the capacity  of RAPID2 to simulate km-scale images, it requires a few hours to run on a  server with 12 CPU cores, which may restrict RAPID2 to limited user groups.  Thus, the faster version RAPID3 is developed in this paper to specifically  simulate km-scale scenes.<br>
+  <img src="en_rapid_clip_image010.gif" alt="" width="406" height="252" border="0" align="bottom"> <br>
+  <strong>Figure </strong><strong>2.</strong> The easy-to-use Graphical User  Interface of RAPID2</p>
+                            <div align="left">
+                              <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="284" valign="top"><br>
+                                    <img src="en_rapid_clip_image012.jpg" alt="" width="212" height="212" border="0"></td>
+                                  <td width="229" valign="top"><p><img border="0" width="211" height="211" src="en_rapid_clip_image014.jpg" alt="ccd_1km"></p></td>
+                                </tr>
+                                <tr>
+                                  <td width="284" valign="top"><p>(a) 1 km RAPID2 image</p></td>
+                                  <td width="229" valign="top"><p>(b) 1 km CCD image (RGB)</p></td>
+                                </tr>
+                                <tr>
+                                  <td width="284" valign="top"><p><img src="en_rapid_clip_image016.gif" alt="" width="213" height="212" border="0"></p></td>
+                                  <td width="229" valign="top"><p><img src="en_rapid_clip_image018.gif" alt="" width="211" height="212" border="0"></p></td>
+                                </tr>
+                                <tr>
+                                  <td width="284" valign="top"><p>(c) 0.6 km RAPID2 image</p></td>
+                                  <td width="229" valign="top"><p>(d) 0.6 km Landsat 8    image</p></td>
+                                </tr>
+                              </table>
+                            </div>
+                            <p><strong>Figure </strong><strong>3.</strong> Comparisons of simulated and real  images of two forest scenes: (a) RAPID2 image with a resolution of 0.5 m  (R:NIR, G:Red, B:Green); (b) real CCD RGB image of (a); (c) RAPID2 image with a  resolution of 15 m (R:NIR, G:Red, B:Green); (d) real Landsat 8 image of (c) in  May 24, 2014.</p>
+                            <p>&nbsp;</p>
+                          <p><a name="_ENREF_1">Bian Z, Du Y, Li H, Cao B, Huang H, Xiao Q, Liu Q  (2017) Modeling the Temporal Variability of Thermal Emissions From Row-Planted  Scenes Using a Radiosity and Energy Budget Method. Ieee Transactions on  Geoscience And Remote Sensing 55 (10):6010-6026. doi:10.1109/tgrs.2017.2719098</a> <br>
+                              <a name="_ENREF_2">Cao B, Du  Y, Li J, Li H, Li L, Zhang Y, Zou J, Liu Q (2015) Comparison of Five Slope  Correction Methods for Leaf Area Index Estimation From Hemispherical  Photography. IEEE Geoscience &amp; Remote Sensing Letters 12 (9):1958-1962</a> <br>
+                              <a name="_ENREF_3">Cao B, Liu  Q, Du Y, Li H, Wang H, Xiao Q (2014) Modeling Directional Brightness  Temperature Over Mixed Scenes of Continuous Crop and Road: A Case Study of the  Heihe River Basin. IEEE Geoscience &amp; Remote Sensing Letters 12 (2):234-238</a> <br>
+                              <a name="_ENREF_4">Dong Y,  Jiao Z, Ding A, Zhang H, Zhang X, Li Y, He D, Yin S, Cui L (2018) A modified  version of the kernel-driven model for correcting the diffuse light of ground  multi-angular measurements. Remote Sensing of Environment 210:325-344.  doi:https://doi.org/10.1016/j.rse.2018.03.030</a> <br>
+                              <a name="_ENREF_5">Goel NS,  Rozehnal I, Thompson RL (1991) A computer graphics based model for scattering  from objects of arbitrary shapes in the optical region. Remote Sensing of  Environment 36 (2):73-104</a> <br>
+                              <a name="_ENREF_6">Huang H  RAPID2: A 3D Simulator supporting virtual remote sensing experiments. In:  Geoscience and Remote Sensing Symposium, 2016. pp 3636-3639</a> <br>
+                              <a name="_ENREF_7">Huang H  (2017) A unified radiosity model for optical and microwave regions. Paper  presented at the Juhan Ross Legacy Symposium, Tartu, Estonia, Aug 24-25 2017</a> <br>
+                              <a name="_ENREF_8">Huang H,  Chen M, Liu Q, Liu Q, Zhang Y, Zhao L, Qin W (2009) A realistic structure model  for large-scale surface leaving radiance simulation of forest canopy and  accuracy assessment. International Journal Of Remote Sensing 30 (20):5421-5439.  doi:10.1080/01431160903130911</a> <br>
+                              <a name="_ENREF_9">Huang H,  Liu Q, Qin W, Du Y, Li X (2011) Temporal patterns of thermal emission  directionality of crop canopies. Journal of Geophysical Research-Atmospheres  116 (18):161-165</a> <br>
+                              <a name="_ENREF_10">Huang H,  Qin W, Liu Q (2013) RAPID: A Radiosity Applicable to Porous IndiviDual Objects  for directional reflectance over complex vegetated scenes. Remote Sensing Of  Environment 132:221-237. doi:10.1016/j.rse.2013.01.013</a> <br>
+                              <a name="_ENREF_11">Huang H,  Qin W, Spurr RJD, Liu Q (2017) Evaluation of Atmospheric Effects on  Land-Surface Directional Reflectance With the Coupled RAPID and VLIDORT Models.  Ieee Geoscience And Remote Sensing Letters 14 (6):916-920.  doi:10.1109/lgrs.2017.2687702</a> <br>
+                              <a name="_ENREF_12">Huang H,  Wynne RH (2013) Simulation of lidar waveforms with a time-dependent radiosity  algorithm. Canadian Journal Of Remote Sensing 39:S126-S138. doi:10.5589/m13-035</a> <br>
+                              <a name="_ENREF_13">Huang H,  Xie W, Sun H Simulating 3D urban surface temperature distribution using  ENVI-MET model: Case study on a forest park. In: IEEE Geoscience and Remote  Sensing Symposium, Milan, Italy, 12 November 2015 2015. IEEE, pp 372-377. doi:10.1109/IGARSS.2015.7326100</a> <br>
+                              <a name="_ENREF_14">Huang HG,  Lian J (2015) A 3D approach to reconstruct continuous optical images using  lidar and MODIS. Forest Ecosystems(</a>森林生态系统(英文)) 2  (3):20 <br>
+                              <a name="_ENREF_15">Liu Q,  Huang H, Qin W, Fu K, Li X (2007) An Extended 3-D Radiosity–Graphics Combined  Model for Studying Thermal-Emission Directionality of Crop Canopy. IEEE  Transactions on Geoscience &amp; Remote Sensing 45 (9):2900-2918</a> <br>
+                              <a name="_ENREF_16">Qin W,  Gerstl SAW (2000) 3-D Scene Modeling of Semidesert Vegetation Cover and its  Radiation Regime. Remote Sensing of Environment 74 (1):145-162</a></p>
+                          <p>With our continuous improvement and expansion, RAPID has become the first full-band multi-sensor free simulation platform (Huang et al., 2018) supporting optical, thermal infrared, lidar and microwave backscatter using the same 3D scene. It also has strong flexibility in scale, which can be used for fine small scenes, as well as for plot scales and landscape scales, all with good simulation efficiency. The latest version is currently RAPID3.                          </p>
+                          <p text-align="justify">
+                          <p text-align="justify"><strong>(2) Model main modules:  </strong>                                                       
+                          <p text-align="justify">The kernel of RAPID is a set of Fortran-based, DOS programs mixed with C language, but the interface is compiled with Visual studio MFC, which is convenient for users. The main function of the software interface is to load input files and perform user-set scene simulation or visual viewing effects. Taking thermal infrared band simulation as an example, the model mainly consists of four main parts: a) canopy real structure generation module; b) single scattering module; c) multiple scattering module; d) direction brightness temperature module.
+                          <p text-align="justify">RAPID Input file
+                              Input files are not integrated into a large configuration file. Instead, it is divided into several separate files to define different information. The main input files include: POLY.IN, REF.IN, OPTICS.IN, VIEWBIDIR.DAT and TC.IN
+                          <p text-align="justify">POLY.IN(Three-dimensional structure file) : POLY.IN is one of the important files for RAPID operation. It stores a lot of coordinates and color information for triangles and rectangles. Each triangle or rectangle represents vegetation, soil, or other objects. The specific information described in the file includes: the long width of the scene, the number of polygons stored, the properties of each polygon panel (number of vertices, red light reflection transmittance, green light reflection transmittance, blue light reflection transmittance, leaf area index, Whether needles, polygon radius, polygon thickness, blade size, (x, y, z) coordinates of each vertex of the polygon).
+                          <p text-align="justify">REF.IN(Sun and sky light files) : This document records the position of the sun and the incident light information in different directions of the sky.
+                          <p text-align="justify">OPTICS.IN(Component spectrum file) : Recorded reflectance and transmittance of all components in the POLY.IN file.                          
+                          <p text-align="justify"> TC.IN(Component temperature file) : This file stores leaf and soil temperatures in different layers. These temperatures can be manually assigned and obtained in this study by coupling with the ENVI-met model. For each component, the light and shadow surface temperatures are also distinguished.
+                          <p text-align="justify">VIEWBIDIR.DAT(Sensor file) : Define the sensor's field of view (FOV), observation height, and soil BRDF options. The observed altitude is 0, indicating satellite; otherwise it is ground or aerial observation. It is based on a common satellite sensor or tower-based lens and integrates typical spectral data. Including visible light (RGB) and near-infrared bands of GeoEye/QuickBird/SPOT satellites, 8 bands of Worldview-2 satellites, 18 bands of CHRISW satellites, visible light (RGB), near-infrared and thermal infrared bands of Landsat-8 satellites. In addition, users can customize the spectrum file.
+                          <p text-align="justify">RAPID Output files:
+                              The simulation results include several temporary output files and final files. Temporary files are shared between modules, and we focus on the final file, which includes the radiance files after the solution (RADFLUX.DAT, SELFFLUX.DAT, etc.), BRF (BRF *.DAT) and DBT (DRT *.DAT).
+                              The RADFLUX.DAT file is used to store the final radiance value after multiple scattering. There are three other formats, but the radiance values for the different results are SCATTERFLUX.DAT (multiple scattering contribution), SELFFLUX.DAT (single scattering value), and SPECULARFLUX.DAT (mirror scattering value):
+                              The BRF MULTI.DAT file stores the final BRF data for all bands and all directions. Similarly, BRF_SINGLE.DAT stores single-scatter BRF values for all bands and in all directions.
+                          The DRT_MULTI.DAT file stores the brightness temperature values of the thermal infrared bands in all directions.                          
+                          <p text-align="justify">                          The main interface of the model is an interactive editing mode for large scenes. Open the software Use the menu tool to create a new scene or open an old scene. The scene size, slope and elevation range are customized by the user. Select the land cover type on the right side of the modeling interface, including vegetation (ellipsoidal canopy, cone canopy or crop), road, bare land, building and water body. You can customize the properties of various features, directly after selecting the type icon. Scene rendering is performed on the left side of the interface.
+                            After the scene is established, it is transferred to the model running part, and the software generates a three-dimensional structure view of the scene. Then input the analog control parameters, the latitude and longitude of the scene, the simulation time, the sensor type, the sensor height, the FOV, etc., and the relevant files are automatically generated by the model after input. After the parameters are set, enter the analog control interface and select the relevant analog type, such as resolution size, molecular scene, thermal radiation simulation, BRF, single scattering, lidar and satellite imagery.
+                            After the simulation is completed, the BRF curve of each band can be viewed by the BRF View interface that comes with the model. The resulting high resolution image can be opened with the remote sensing image processing software ENVI.
+                              
+               </div><hr>        
+                   <h2 id="section2">Three-dimensional scene</h2>
+                   <br><br>
+                       <div>
+
+   <p><img src="soft/single_tree.jpg" width="441" height="232"></p>
+   <p>Basic concept of solid soil polygons, stem polyongs and porous crowns.</p>
+   <p><img src="soft/plants.jpg" width="800" height="600"></p>
+   <p>Library of tree species (broadleaf, needle-leaf, bamboo, grass etc.)</p>
+   <p><img src="soft/huailai_site_3D_scene.jpg" alt="huailai_site_3D_scene.jpg"/></p>
+   <p>Huailai Site</p>
+   <p><img src="soft/pine_forest.jpg" width="649" height="449"></p>
+   <p>RAMI pine forest</p>
+   <p><img src="soft/pine_forest_looking_up.jpg" width="800" height="393"></p>
+   <p>RAMI pine forest looking up</p>
+   <p><img src="soft/row_forest2.jpg" width="609" height="353"></p>
+   <p>RAMI rotation forest</p>
+   <p><img src="soft/fractal_3d_scene.jpg" width="508" height="317"></p>
+   <p>Virtual fractal forest</p><hr> 
+                   <h2 id="section3">One Simple Case</h2>
+                                      <br>
+                                      Case study on Huailai site simulation<br>
+                   <p><img src="soft/huailai_site.jpg" width="625" height="633"></p>
+                   <p>First, Create the Huailai 3D scene and solve light transfer.</p>
+                   <p><img src="soft/image_25_0_huailai_site.jpg" width="460" height="389"></p>
+                   <p>Second, simulate optical image.</p>
+                   <p><img src="soft/tir_huailai_site.jpg" width="484" height="415"></p>
+                   <p>Third, simulate thermal image.</p>
+                   <p><img src="soft/TLS_huailai_above.jpg" width="453" height="287"><img src="soft/waveform_huailai.jpg" width="448" height="279"></p>
+                   <p>Fourth, simulate lidar point cloud and waveform.</p>
+                   <p><img src="soft/fisheye_huailai_site.jpg" width="385" height="403"></p>
+                   <p>Fifth, simulate fisheye image.</p>
+                   <p>Last, simulate microwave backscattering image (not done yet).                         </p>
+                   <div>
+                     <p text-align="justify">                     
+                     <h2 id="section4">Training</h2>
+                   <br><br>
+                   <h2 id="toc1"><a name="RAPID excercises:-Excercise 1: get started"></a>Exercise 1: get started</h2>
+                   <h3 id="toc2"><a name="RAPID excercises:-Excercise 1: get started-1.1 Set up working folder"></a>1.1 Set up working folder</h3>
+                   <br>
+                   【1】 Click menu <strong>Prepare-&gt; STEP 1</strong> (or Button ①): create a new folder or select a current folder as the working path (e.g. <strong>D:\RAPID\test1</strong>). <br>
+                   <br>
+                   <h3 id="toc3"><a name="RAPID excercises:-Excercise 1: get started-1.2 create a scene with one big tree and soil"></a>1.2 Create a scene with one big tree and soil</h3>
+                   【1】Click the menu <strong>DTM-&gt;scene size.</strong> Set length 20, width 20, cellsize 1 m, elevation 0, and slope 0. Then click OK.<br>
+                   【2】Click the tree list on the right panel <strong>All components-&gt;Ellipse trees</strong><br>
+                   【3】Click the button "<strong>New</strong>" on the right panel, a new child "Ellipse tree1" will be shown as <strong>All components-&gt;Ellipse trees-&gt;Ellipse tree1.</strong><br>
+                   【4】Click the node "<strong>Ellipse tree1</strong>" on the right panel, and edit the property editor (e.g. crown width from default value 2.5 m to 5 m).<br>
+                   【5】Move the mouse to the middle of the left panel.<br>
+                   【6】Click the mouse, one "<strong>Ellipse tree1</strong>" will be planted in the middle of the scene (e.g. x=10 m, y=10 m).<br>
+                   【7】Click the third button in the toolbar "<strong>save current map</strong>" .<br>
+                   【8】Click the browse button in the prompt dialog to select an output file (e.g. <strong>D:\RAPID\test1\onetree.map</strong>), and click ok to return.<br>
+                   【9】Click menu <strong>Prepare-&gt; STEP 2</strong> (or Button ②): to create the poly.in file<br>
+                   <br>
+                   <h3 id="toc4"></h3>
+                   <h3 id="toc5"><a name="RAPID excercises:-Excercise 1: get started-1.3 Review poly.in"></a>1.3 Review poly.in</h3>
+                   <p><br>
+                   【1】Click View-&gt;3D Viewer (D) (or the toolbutton ) to launch RGMDisp.exe .<br>
+                   【2】In RGMDisp.exe, click the menu project-&gt;open scene (or the toolbutton open) to open the file <strong>D:\RAPID\test1\poly.in</strong>.</p>
+                   <p>【3】Drap mouse to rotate the scene; zoom the scene using up/down arrow keys; switch the render type (wire or fill mode); check if the scene is what you really need.                   </p>
+                   <p><br>
+                   </p>
+                   <h3 id="toc6"><a name="RAPID excercises:-Excercise 1: get started-1.3 Major inputs"></a>1.4 Major input setting</h3>
+                   <p>【1】Clike menu p<strong>repare-&gt; STEP 3</strong> (or toobar with icon 3):  A Dialog (Input parameters) will show, which has two frames: Create raw files and Refine files. Create raw files is to generate major input files. Refine files provides change to change those input files.</p>
+                   <p><img src="soft/Input_parameters.jpg" alt="" width="616" height="376"></p>
+                   <p>【2】click the Create raw files-->Apply button to create default input files, which simulates the RGB+NIR mode (four bands reflectance). Then, click Close to exit<br>
+                   </p>
+                   <h3 id="toc7"><a name="RAPID excercises:-Excercise 1: get started-1.4 run the model"></a>1.5 Running</h3>
+                   <p>【1】Click menu <strong>Run-&gt; Go</strong>-64bit (or toolbar icon  64bit):  Shows the dialog for 64 bit OS Run RAPID. Left panel is for running options; right panel is for displaying the running processes. By checking on the options in the dialog, different modules will be invoked. The defualt task is to simulate BRF and DBT. Checking on liar to simulate large footprint lidar waveform; checking on TIR to simulate thermal brightness temperature; checking on imaging will simulate images; checking on Fisheye to simulate fish eye images.</p>
+                   <p><img src="soft/Run_Rapid.jpg" alt="" width="700" height="381"></p>
+                   <p>【2】Click RUN button  to run the model; STOP button to stop current running; EXIT to quit current dialog. heck on the option (Show processing) to see more detailed running log data.</p>
+                   <br>
+                   <h3 id="toc8"><a name="RAPID excercises:-Excercise 1: get started-1.5 see the output"></a>1.6 View outputs</h3>
+                   <p>【1】Simulated results are stored in the working folder(<strong>D:\RAPID\test1) . Major files are brf*.dat, where brf_multi.dat(or earlier brf.dat)  are total </strong>BRF; brf01.dat is for soil component; brf02.dat is for leaf component; brf03.dat is for trunk component BRF; the corresponding fari*.dat files are the component viewing fractions;  the corresponding refl*.dat files are component equivenent reflectance values. The radflux.dat stores the radiosity with multiple scattering; selfflux.dat for single scattering. </p>
+                   <p>【2】The most direct way: Notepad or UltraEdit can be used to open these dat files and view outputs. Then, copy them to Excel and draw BRF curves. </p>
+                   <p>【3】The visual way to see outputs is to render by RGMDisp.exe. Click menu View-&gt;3D Viewer (D) (or toolbar  button  ), invoke the 3D renderer  RGMDisp.exe.  Then, open the poly.in in the working folder. Click menu Display, select different draw functions (e.g. draw single scattering to show selfflux.dat) to see the effects.</p>
+                   <p><img src="soft/Dispalyer.jpg" alt="" width="496" height="394"><br>
+                   </p>
+                   <h2 id="toc9"><a name="RAPID excercises:-Excercise 2: BRF simulation"></a>Exercise  2: Coupling atmosphere and land BRDF</h2>
+                   <p><strong>2.1 major steps:</strong></p>
+                   <p>Two models, RAPID and VLIDORT, are required for coupling. The compiled VLIDORT is the vlidort.exe file. There are five steps:</p>
+                   <p>【1】Configure four key files for VLIDORT model: 2p7_VLIDORT_ReadInput.cfg, VBRDF_LutInput.cfg, input_atmos.dat and input_temp23.dat. Default files are included in the softare, which is good for test. </p>
+                   <p>【2】In the Input dialog (Input parameters), select the atmosphere model as vlidort, assign a AOD (e.g. 0.2); click Apply button to call vlidort.exe to generate five groups of viewbidir.dat files (BRDF view angles) and aerosol.in. The five groups of angular files are:</p>
+                   <p>[2.1] VIEWBIDIR_DBKERNEL_1  to 15: angles from -70 to 70 deg with a step of 10 deg for direct ligh in the solar principal plane. DBOUNCE_BRDFUNC(<em>s</em>, <em>a</em>, <em>b</em>): incident solar angle <em>s</em>, reflected line-of-sight angle <em>a</em>, and relative azimuth <em>b</em>.</p>
+                   <p>[2.2] VIEWBIDIR_USER_BRDFUNC_0_1: user defined angles, which is the USER_BRDF_F_0  (<em>s</em>, <em>a</em>): incident solar angle <em>s</em> and reflected view zenith angle <em>a</em>.</p>
+                   <p>[2.3] VIEWBIDIR_BRDFUNC_0_1 to 0_4: 200 segmented angles to describe the hemisphere. BRDF_F_0(<em>s</em>, <em>k</em>):  incident solar angle <em>s</em> and reflected  discrete ordinate <em>k</em>.</p>
+                   <p>[2.4]VIEWBIDIR_BRDFUNC_1 to 10: 200 angles. BRDF_F_0(<em>s</em>, <em>k</em>):  incident solar angle <em>s</em> and reflected  discrete ordinate <em>k</em>.</p>
+                   <p>[2.5]VIEWBIDIR_USER_BRDFUNC_1 to 10: USER_BRDF_F_0  (<em>s</em>, <em>a</em>): incident solar angle <em>s</em> and reflected view zenith angle <em>a</em>.</p>
+                   <p>In aerosol.in, there is only one line, including two numbers: aerosol type and AOD. </p>
+                   <p>If using command line:  vlidort.exe pre</p>
+                   <p>【3】According to the data requirement from 【2】, a batch file should be created to run RAPID and produce the BRDF results for the angles from 2.1 to 2.5. For example, when solar zenith angle (SZA) is 20 deg, the batch file looks like: </p>
+                   <p><code>ref64 inf -size 1024</code></p>
+                   <p><code>mer64</code></p>
+                   <p><code>ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_1.dat<br>
+                     ref64 inf -size 1024 spec -sza 15 <br>
+                     sol64 -sza 15 <br>
+                     ref64 inf -size 1024 bidir -sza 15 -file VIEWBIDIR_USER_BRDFUNC_0_1.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_2.dat<br>
+                     ref64 inf -size 1024 spec -sza 17 <br>
+                     sol64 -sza 17 <br>
+                     ref64 inf -size 1024 bidir -sza 17 -file VIEWBIDIR_USER_BRDFUNC_0_2.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_3.dat<br>
+                     ref64 inf -size 1024 spec -sza 19 <br>
+                     sol64 -sza 19 <br>
+                     ref64 inf -size 1024 bidir -sza 19 -file VIEWBIDIR_USER_BRDFUNC_0_3.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_4.dat<br>
+                     ref64 inf -size 1024 spec -sza 20 <br>
+                     sol64 -sza 20 <br>
+                     ref64 inf -size 1024 bidir -sza 20 -file VIEWBIDIR_USER_BRDFUNC_0_4.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_5.dat<br>
+                     ref64 inf -size 1024 spec -sza 21 <br>
+                     sol64 -sza 21 <br>
+                     ref64 inf -size 1024 bidir -sza 21 -file VIEWBIDIR_USER_BRDFUNC_0_5.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_6.dat<br>
+                     ref64 inf -size 1024 spec -sza 23 <br>
+                     sol64 -sza 23 <br>
+                     ref64 inf -size 1024 bidir -sza 23 -file VIEWBIDIR_USER_BRDFUNC_0_6.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_7.dat<br>
+                     ref64 inf -size 1024 spec -sza 25 <br>
+                     sol64 -sza 25 <br>
+                     ref64 inf -size 1024 bidir -sza 25 -file VIEWBIDIR_USER_BRDFUNC_0_7.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_8.dat<br>
+                     ref64 inf -size 1024 spec -sza 30 <br>
+                     sol64 -sza 30 <br>
+                     ref64 inf -size 1024 bidir -sza 30 -file VIEWBIDIR_USER_BRDFUNC_0_8.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_9.dat<br>
+                     ref64 inf -size 1024 spec -sza 47 <br>
+                     sol64 -sza 47 <br>
+                     ref64 inf -size 1024 bidir -sza 47 -file VIEWBIDIR_USER_BRDFUNC_0_9.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_10.dat<br>
+                     ref64 inf -size 1024 spec -sza 49 <br>
+                     sol64 -sza 49 <br>
+                     ref64 inf -size 1024 bidir -sza 49 -file VIEWBIDIR_USER_BRDFUNC_0_10.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_11.dat<br>
+                     ref64 inf -size 1024 spec -sza 50 <br>
+                     sol64 -sza 50 <br>
+                     ref64 inf -size 1024 bidir -sza 50 -file VIEWBIDIR_USER_BRDFUNC_0_11.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_12.dat<br>
+                     ref64 inf -size 1024 spec -sza 51 <br>
+                     sol64 -sza 51 <br>
+                     ref64 inf -size 1024 bidir -sza 51 -file VIEWBIDIR_USER_BRDFUNC_0_12.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_13.dat<br>
+                     ref64 inf -size 1024 spec -sza 53 <br>
+                     sol64 -sza 53 <br>
+                     ref64 inf -size 1024 bidir -sza 53 -file VIEWBIDIR_USER_BRDFUNC_0_13.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_14.dat<br>
+                     ref64 inf -size 1024 spec -sza 55 <br>
+                     sol64 -sza 55 <br>
+                     ref64 inf -size 1024 bidir -sza 55 -file VIEWBIDIR_USER_BRDFUNC_0_14.dat<br>
+                     ref64 inf -size 1024 spec -sza 20.00<br>
+                     sol64 -sza 20.00<br>
+                     ref64 inf -size 1024 bidir -sza 20.00 -file VIEWBIDIR_DBKERNEL_15.dat<br>
+                     ref64 inf -size 1024 spec -sza 60 <br>
+                     sol64 -sza 60 <br>
+                     ref64 inf -size 1024 bidir -sza 60 -file VIEWBIDIR_USER_BRDFUNC_0_15.dat<br>
+                     ref64 inf -size 1024 spec -sza 89.25 <br>
+                     sol64 -sza 89.25 <br>
+                     ref64 inf -size 1024 bidir -sza 89.25 -file VIEWBIDIR_USER_BRDFUNC_1.dat<br>
+                     ref64 inf -size 1024 spec -sza 86.13 <br>
+                     sol64 -sza 86.13 <br>
+                     ref64 inf -size 1024 bidir -sza 86.13 -file VIEWBIDIR_USER_BRDFUNC_2.dat<br>
+                     ref64 inf -size 1024 spec -sza 80.78 <br>
+                     sol64 -sza 80.78 <br>
+                     ref64 inf -size 1024 bidir -sza 80.78 -file VIEWBIDIR_USER_BRDFUNC_3.dat<br>
+                     ref64 inf -size 1024 spec -sza 73.54 <br>
+                     sol64 -sza 73.54 <br>
+                     ref64 inf -size 1024 bidir -sza 73.54 -file VIEWBIDIR_USER_BRDFUNC_4.dat<br>
+                     ref64 inf -size 1024 spec -sza 64.81 <br>
+                     sol64 -sza 64.81 <br>
+                     ref64 inf -size 1024 bidir -sza 64.81 -file VIEWBIDIR_USER_BRDFUNC_5.dat<br>
+                     ref64 inf -size 1024 spec -sza 54.94 <br>
+                     sol64 -sza 54.94 <br>
+                     ref64 inf -size 1024 bidir -sza 54.94 -file VIEWBIDIR_USER_BRDFUNC_6.dat<br>
+                     ref64 inf -size 1024 spec -sza 44.22 <br>
+                     sol64 -sza 44.22 <br>
+                     ref64 inf -size 1024 bidir -sza 44.22 -file VIEWBIDIR_USER_BRDFUNC_7.dat<br>
+                     ref64 inf -size 1024 spec -sza 32.89 <br>
+                     sol64 -sza 32.89 <br>
+                     ref64 inf -size 1024 bidir -sza 32.89 -file VIEWBIDIR_USER_BRDFUNC_8.dat<br>
+                     ref64 inf -size 1024 spec -sza 21.17 <br>
+                     sol64 -sza 21.17 <br>
+                     ref64 inf -size 1024 bidir -sza 21.17 -file VIEWBIDIR_USER_BRDFUNC_9.dat<br>
+                     ref64 inf -size 1024 spec -sza 9.27 <br>
+                     sol64 -sza 9.27 <br>
+                     ref64 inf -size 1024 bidir -sza 9.27 -file VIEWBIDIR_USER_BRDFUNC_10.dat</code></p>
+                   <p>【4】 Once the BRDF has been generated for VLIDORT by step 3, we can run VLIDORT.exe to simulate top of atmosphere BRDF. <br>
+                   </p>
+                   <p>If the working folder is Aerosol\HOM_dense\20, we can write a batch file into a DOS file for automatic running: </p>
+                   <p><code>copy /Y 2p7_VLIDORT_ReadInput_20.cfg Aerosol\HOM_dense\20\2p7_VLIDORT_ReadInput.cfg<br>
+                     copy /Y VBRDF_LutInput_20.cfg Aerosol\HOM_dense\20\VBRDF_LutInput.cfg<br>
+                     copy /Y hotspot20_dense.bat Aerosol\HOM_dense\20\hotspot.bat<br>
+                     copy /Y vlidort2.exe Aerosol\HOM_dense\20\vlidort2.exe<br>
+                     copy /Y aerosol11.in Aerosol\HOM_dense\20\aerosol.in<br>
+                     cd Aerosol\HOM_dense\20\<br>
+                     vlidort.exe pre<br>
+                     hotspot.bat<br>
+                     vlidort.exe</code></p>
+                   <p>【5】View results: There are only two files for two typical bands: results_brdfplus_out1.txt (red) 和results_brdfplus_out2.txt (NIR) . The upward and downward radiances at top of atmosphere (TOA, Level 34 km) and bottom of atmosphere (BOA, Level 0 km) in different view angles (Geometry) are included. The 5th column stores the TOA radiance, which can be transfomed into BRF by normalize the inciden angle (e.g. SZA=20deg): <br>
+                     BRFvlidort = RT_VLIDORT(:,5)*pi/cos(20/180*pi);<br>
+                     The file looks like: </p>
+                   <p><em>Level/Output,     Geometry,      TS_stokes (up, down), DBounce_BRDF <br>
+                     0.000000000000000  1  70.0000000000000  0.000000000000000  4.139698377884619E-002  0.000000000000000  3.157000000000000E-002<br>
+                     0.000000000000000  2  60.0000000000000  0.000000000000000  3.236583873811853E-002  0.000000000000000  4.052000000000000E-002<br>
+                     0.000000000000000  3  50.0000000000000  0.000000000000000  2.938779468035125E-002  0.000000000000000  5.605000000000000E-002<br>
+                     0.000000000000000  4  40.0000000000000  0.000000000000000  2.892962945196362E-002  0.000000000000000  6.907000000000001E-002<br>
+                     0.000000000000000  5  30.0000000000000  0.000000000000000  2.970106429368309E-002  0.000000000000000  8.117000000000001E-002<br>
+                     0.000000000000000  6  20.0000000000000  0.000000000000000  3.095597439821184E-002  0.000000000000000  9.178000000000001E-002<br>
+                     0.000000000000000  7  10.0000000000000  0.000000000000000  3.228235312807796E-002  0.000000000000000  0.100200000000000<br>
+                     0.000000000000000  8  1.00000000000000  0.000000000000000  3.250845013352362E-002  0.000000000000000  0.107700000000000<br>
+                     0.000000000000000  9  10.0000000000000  180.000000000000  3.478137157809898E-002  0.000000000000000  0.114800000000000<br>
+                     0.000000000000000  10  20.0000000000000  180.000000000000  3.652355662691645E-002  0.000000000000000  0.128200000000000<br>
+                     0.000000000000000  11  30.0000000000000  180.000000000000  3.433067592882250E-002  0.000000000000000  0.109600000000000<br>
+                     0.000000000000000  12  40.0000000000000  180.000000000000  3.293580155830215E-002  0.000000000000000  9.775000000000000E-002<br>
+                     0.000000000000000  13  50.0000000000000  180.000000000000  3.117189836575358E-002  0.000000000000000  7.987000000000000E-002<br>
+                     0.000000000000000  14  60.0000000000000  180.000000000000  3.019334846316788E-002  0.000000000000000  5.908000000000000E-002<br>
+                     0.000000000000000  15  70.0000000000000  180.000000000000  3.204296566668410E-002  0.000000000000000  3.900000000000000E-002<br>
+                     34.0000000000000  1  70.0000000000000  0.000000000000000  1.042263910995895E-002  8.451212213112594E-002  3.157000000000000E-002<br>
+                     34.0000000000000  2  60.0000000000000  0.000000000000000  1.313291672756625E-002  9.589280961267308E-002  4.052000000000000E-002<br>
+                     34.0000000000000  3  50.0000000000000  0.000000000000000  1.706070083173341E-002  0.133890480711280  5.605000000000000E-002<br>
+                     34.0000000000000  4  40.0000000000000  0.000000000000000  2.027413925704747E-002  0.231665487874904  6.907000000000001E-002<br>
+                     34.0000000000000  5  30.0000000000000  0.000000000000000  2.316170470818002E-002  0.460053153157133  8.117000000000001E-002<br>
+                     34.0000000000000  6  20.0000000000000  0.000000000000000  2.566862950008229E-002  0.664506778242466  9.178000000000001E-002<br>
+                     34.0000000000000  7  10.0000000000000  0.000000000000000  2.771875814965746E-002  0.413590827352392  0.100200000000000<br>
+                     34.0000000000000  8  1.00000000000000  0.000000000000000  2.785321303794205E-002  0.199184930312660  0.107700000000000<br>
+                     34.0000000000000  9  10.0000000000000  180.000000000000  3.104663722930473E-002  9.111591705444461E-002  0.114800000000000<br>
+                     34.0000000000000  10  20.0000000000000  180.000000000000  3.359126995970321E-002  5.349915463210418E-002  0.128200000000000<br>
+                     34.0000000000000  11  30.0000000000000  180.000000000000  2.995665372555962E-002  3.663414339175187E-002  0.109600000000000<br>
+                     34.0000000000000  12  40.0000000000000  180.000000000000  2.739418797213769E-002  2.877187642667495E-002  9.775000000000000E-002<br>
+                     34.0000000000000  13  50.0000000000000  180.000000000000  2.331175291546405E-002  2.573277965339820E-002  7.987000000000000E-002<br>
+                     34.0000000000000  14  60.0000000000000  180.000000000000  1.811863222828699E-002  2.626059084016453E-002  5.908000000000000E-002<br>
+                     34.0000000000000  15  70.0000000000000  180.000000000000  1.266681849226738E-002  3.057390157266330E-002  3.900000000000000E-002</em></p>
+                   <p><strong>2.2 Simulating a pure absorbing atmosphere: </strong></p>
+                   <p>Although VLIDORT has been  benchmarked for Rayleigh and aerosol calculations, we present some simple  calculations here for orientation purposes. First, when the atmosphere is  transparent, BRFTOA equals BRFBOA. Second, for a  non-scattering (pure absorption) atmosphere (transmittance Tabs=0.75),  and a ground surface with reflectance ρground for sun direction Ωs  and view direction Ωv. Then, the analytic single-scattering BRFTOA  should be as follows:</p>
+                   <p align="left"><img src="rapid_clip_image002.gif" alt="完全透过大气对比" width="348" height="35">                              (5) <br>
+                   </p>
+                   <p>The following Figure shows the consistency of the  BRFTOA comparison between VLIDORT and the analytic expression using  Eq. (5) for a Lambertian ground surface; the absolute error is generally lower  than 0.003.</p>
+                   <p align="left"><br>
+                     <img src="rapid_clip_image004.gif" alt="aaa" width="649" height="382"></p>
+                   <p>Figure 2. Comparing analytic TOA  reflectance (Eq. (4) with VLIDORT-derived reflectance for a Lambertian surface  (albedo0.5) and for an absorbing atmosphere (transmittance = 0.75): (a) BRF, SZA  = 20; (b) BRF, SZA = 50; (c) Absolute error, SZA = 20; (d) Absolute error, SZA  = 50.                   </p>
+                   <p>&nbsp;</p>
+<h2 id="toc10"><a name="RAPID excercises:-Excercise 3: DBT simulation"></a>Exercise  3: TIR simulation</h2>
+<p>There are three possible ways to assign component temperature for TIR simulation: </p>
+<p>(1) use 1D model ECUPID model to simulate crop leaf and soil temperature distribution (by layer and leaf angle). ECUPID was interated in the RAPID system. </p>
+<p>(2) use 3D model ENVI-met to simulate landscape temperature distribution. However, ENVI-met is not integrated in RAPID. </p>
+<p>(3) TRGM with energy budget moudule embedded, which was published but not yet inegrated in RAPID. </p>
+<p>Anyway, whatever the way it is, what you should do is to write the temperatures int tc.in: </p>
+<p><samp><strong>3 2 1.0 (three components, two layers and multiplying coefficient 1.0) <br>
+  layer 1 2 (layer code) <br>
+  leaf (first component, leaf) <br>
+  28 28 (sunlit temperature at layer 1 and 2) <br>
+  26 26 (shaded temperature at layer 1 and 2) <br>
+  stem (second component, stem or trunk) <br>
+  28 28  (sunlit temperature at layer 1 and 2)<br>
+  24 24 (shaded temperature at layer 1 and 2) <br>
+  soil (third component, soil) <br>
+  37 37 (sunlit temperature at layer 1 and 2)<br>
+  31 31 (shaded temperature at layer 1 and 2) </strong></samp></p>
+<h3 id="toc6"><a name="RAPID excercises:-Excercise 1: get started-1.1 Set up working folder"></a>3.1 Set the working folder</h3>
+<p> Click menu <strong>Prepare-&gt; STEP 1</strong> (or toolbar icon  ①): In the popup dialog, browse and select a working folder (e.g. <strong>D:\RAPID\test3</strong>). <br>
+  <br>
+</p>
+<h3 id="toc7"><a name="RAPID excercises:-Excercise 1: get started-1.2 create a scene with one big tree and soil"></a>3.2 Generate a row-structured crop scene</h3>
+<p>【1】 Click menu <strong>DTM-&gt;scene size.</strong> Set the scene size as length 10, width 10, cellsize 1 m, elevation 0, and slope 0. Then, Click the button  OK. <br>
+  【2】In the right panels, expand the treelist <strong>All components-&gt;Rectangle crowns</strong>, to create square crop canopies. <br>
+  【3】Find and click the button  "<strong>New</strong>", which will generate a leaf node for the class of crop canopies, named "Rectangle crowns1" , with the tree structure as <strong>All components-&gt;Rectangle crowns-&gt;Rectangle crowns1.</strong><br>
+  【4】Click this node "<strong>Rectangle crowns1</strong>", modifying the crown properties in the below editor. Specifically, change crown width (crown width) , from default 3m to 2 m; change height to 2 m. Press enter to change. Then, Click  button “Update” to complete data consistency. <br>
+  【5】Move the mouse to the left map area; select a position (x=2 m, y=1 m) ; click the mouse left key to plant a group of crowns (<strong>Rectangle crowns1</strong>) in the scene. The plant is shown as a green square. Then, plant additional 4 crops below to form a row ridge. Click toolar select button to select this row. Then, Click  toolar button copy and then paste to replicate this row. Then, drag this row to another row. Before draging, you must click the toolbar button (like a triangle icon). Finally, click mouse right key to cancel the selection mode. <br>
+  【6】Click menu“Save”or toolbar save icon, in the popup dialog, select an output path (<strong>D:\RAPID\test3\rowcrop.map</strong>), and save the scenes into a *.map file.</p>
+<p>【7】Click menu<strong>Prepare-&gt; STEP 2</strong> (or toolbar icon  ②): Transform the map file into poly.in file format (automatically generated in the working folder: <strong>:\RAPID\test3\poly.in</strong>), and generate default ref.in, optics.cat and optics.in files. <br>
+</p>
+<h3 id="toc8"><a name="RAPID excercises:-Excercise 1: get started-1.3 Review poly.in"></a>3.3 Visualize the 3D scene (poly.in) </h3>
+<p>【1】Click menu View-&gt;3D Viewer (D) (or toolbar  button  ), invoke the 3D renderer  RGMDisp.exe.  <br>
+  【2】In the GUI of RGMDisp.exe, Click menu  project-&gt;open scene (or toolar button OPEN), select a file <strong>D:\RAPID\test3\poly.in</strong>. </p>
+<p>【3】Use mouse to drag and rotate, or zoom by up/down arrow, or change the wire/fill mode, to make sure if the scene is row-crop scene.  <br>
+</p>
+<h3 id="toc6"><a name="RAPID excercises:-Excercise 1: get started-1.3 Major inputs"></a>3.4 Major input setting</h3>
+<p>【1】Click menu <strong>Prepare-&gt; STEP 3</strong> (or toolbar icon  3):  Popup the dialog , you see two child windows Create raw files and Refine files, which are used to generate major input files and modify them.In the sensor type list, select VNIR+TIR/Landsat-8 (RGB+NIR+TIR) type to simulate TIR. </p>
+<p><img src="soft/Input_TIR1.jpg" alt="" width="616" height="376"></p>
+<p>【2】Click Apply button in the Create raw files window, to generate default files. Then, switch to Refine files window, Click tc.in to edit component temperatures. Then, Click Close button exit. </p>
+<p><img src="soft/Input_TIR2.jpg" alt="" width="616" height="372"><br>
+</p>
+<h3 id="toc7"><a name="RAPID excercises:-Excercise 1: get started-1.4 run the model"></a>3.5 Run RAPID</h3>
+<p>【1】Click menu <strong>Run-&gt; Go</strong>-64bit (or toolbar icon  64bit):  Shows the dialog for 64 bit OS Run RAPID. Left panel is for running options; right panel is for displaying the running processes.You must check the option run TIR(tc.in) to simulate TIR; check option Infinite scene to simulate infinite scene. </p>
+<p><img src="soft/Input_TIR3.jpg" alt="" width="700" height="381"></p>
+<p>【2】Click RUN button  to run the model; STOP button to stop current running; EXIT to quit current dialog. heck on the option (Show processing) to see more detailed running log data.</p>
+<br>
+<h3 id="toc8"><a name="RAPID excercises:-Excercise 1: get started-1.5 see the output"></a>3.6 View outputs</h3>
+<p>【1】Simulated results are stored in the working folder(<strong>D:\RAPID\test3) . Major thermal files are drt*.dat, </strong>where drt_multi.dat(or earlier drt.dat)  is the<strong> total brightness temperature and radiance</strong>. </p>
+<p><img src="soft/DBT_output.jpg" alt="" width="460" height="414"></p>
+<p>【2】The most direct way: Notepad or UltraEdit can be used to open thse dat files and view outputs. Then, copy them to Excel and draw DBT curves. </p>
+<p>【3】Like BRF, visualize the outputs by RGMDisp.exe. Click menu  View-&gt;3D Viewer (D) (or toolbar  button  ), invoke the 3D renderer  RGMDisp.exe.  Then, open the poly.in in the working folder. Click menu Display, select different draw functions (e.g. draw single scattering to show selfflux.dat) to see the effects.</p>
+<p><br>
+</p>
+<h2 id="toc11"><a name="RAPID excercises:-Excercise 4: Lidar wavefrom simulation"></a>Exercise  4: Lidar waveform simulation</h2>
+<p>The module of lidar waveform simulation was originally used for GLAS large footprint waveform. The corresponding programm is lidar64.exe. All inputs include footprint size, incident angle, pulse widht FWHM. Recently, we improved the code to simulate small footprint. Because the incident direction and recieving direct coincides (like the hotspot direction in BRDF), we use the SZA in ref.in as the incident angle, and the simulated s0.raw file (storing the polygon ID), z0.raw (storing the z-buffer), c0.raw (storing the polygon type code) as input.  </p>
+<p>The command line to simulate:: <code> lidar64.exe -foot 15.0 -space 70.0 -FWHM 4.0 sgl</code></p>
+<p>where -foot means footprint radius (m), -space means sampling spacing between two footprints, -FWHM for pulse width, sgl means only single scattering to simulate. </p>
+<p>If using sgl, the speed is very fast. In the dialog Run RAPID, typing the following texts: </p>
+<p><code>ref64 spec -size 2000 <br>
+  lidar64.exe -foot 15.0 -space 70.0 -FWHM 4.0 sgl</code></p>
+<p>If multiple scattering options used (not checking sgl), more calculations on view factors and multiple scattering are required: </p>
+<p><code>ref64 -size 2000 <br>
+  mer64 <br>
+  ref64 spec -size 2000 <br>
+  sol64</code></p>
+<p><code>lidar64.exe -foot 15.0 -space 70.0 -FWHM 4.0 sgl </code></p>
+<h3 id="toc6"><a name="RAPID excercises:-Excercise 1: get started-1.1 Set up working folder"></a>4.1 Set the working folder</h3>
+<br>
+Click menu  <strong>Prepare-&gt; STEP 1</strong> (or toolbar icon  ①): In the popup dialog, browse and select a working folder (e.g. <strong>D:\RAPID\test4</strong>). <br>
+<br>
+<h3 id="toc7"><a name="RAPID excercises:-Excercise 1: get started-1.2 create a scene with one big tree and soil"></a>4.2 Generate a forest scene</h3>
+<p>【1】 Click menu  <strong>DTM-&gt;scene size.</strong> Set the scene size as length 20, width 20, cellsize 1 m, elevation 0, and slope 0. Then, Click the button  OK. <br>
+  【2】In the right panels, expand the treelist <strong>All components-&gt;Cone+Cylinder trees</strong>, to create cone plus cylinder shaped trees. <br>
+  【3】Find and click the button  "<strong>New</strong>", which will generate a leaf node for the class of conifer trees, named as "Cone+Cylinder tree1" , with the tree structure as <strong>All components-&gt;Cone+Cylinder trees-&gt;Cone+Cylinder tree1.</strong><br>
+  【4】Click this node "<strong>Cone+Cylinder tree1</strong>", modifying the crown properties in the below editor. Specifically, change Height30m, Crown Length 20m, Cone Length为2m, LAI 6, Press enter to change, Then, Click  button “Update” to complete data consistency. <br>
+  【5】Move mouse to the left map panel, select five places and click to plant randomly 5 trees. Ecah plant is shown as a dark green circle. <br>
+  【6】Click menu “Save”or toolbar save icon, in the popup dialog, select an output path (<strong>D:\RAPID\test4\lidartree.map</strong>), and save the scenes into a *.map file.</p>
+<p>【7】Click menu <strong>Prepare-&gt; STEP 2</strong> (or toolbar icon  ②): Transform the map file into poly.in file format (automatically generated in the working folder: <strong>:\RAPID\test4\poly.in</strong>), and generate default ref.in, optics.cat and optics files. <br>
+</p>
+<h3 id="toc8"><a name="RAPID excercises:-Excercise 1: get started-1.3 Review poly.in"></a>4.3 Visualize the 3D scene (poly.in) </h3>
+<p>【1】Click menu  View-&gt;3D Viewer (D) (or toolbar  button  ), invoke the 3D renderer  RGMDisp.exe.  <br>
+  【2】In the GUI of RGMDisp.exe, Click menu  project-&gt;open scene (or toolar button OPEN), select a file <strong>D:\RAPID\test4\poly.in</strong>. </p>
+<p>【3】Drap mouse to rotate the scene; zoom the scene using up/down arrow keys; switch the render type (wire or fill mode); check if the scene is what you really need (cone+cylinder shape, five trees).  <br>
+</p>
+<h3 id="toc6"><a name="RAPID excercises:-Excercise 1: get started-1.3 Major inputs"></a>4.4 Major input setting</h3>
+<p>【1】Click menu <strong>Prepare-&gt; STEP 3</strong> (or toolbar icon  3):  Popup the dialog , you see two child windows Create raw files and Refine files, which are used to generate major input files and modify them.In the sensor type list, select  (RGB+NIR) type because we only support the last three bands at current version. </p>
+<p>【2】Click Apply button in the Create raw files window, to generate default files. Then, switch to Refine files window, Click ref.in to edit the first line (solar zenith and azimuth angle) . Then, Click Close button to exit. </p>
+<p><img src="soft/Input_refin.jpg" alt="" width="615" height="377"><br>
+</p>
+<h3 id="toc7"><a name="RAPID excercises:-Excercise 1: get started-1.4 run the model"></a>4.5 Run RAPID</h3>
+<p>【1】Click menu <strong>Run-&gt; Go</strong>-64bit (or toolbar icon  64bit):  Shows the dialog for 64 bit OS Run RAPID. Left panel is for running options; right panel is for displaying the running processes.You must check the option run lidar. Then, modify the command line as: </p>
+<p><code>ref64 spec -size 2000 <br>
+  lidar64.exe -foot 15.0  -FWHM 4.0 sgl</code></p>
+<p>【2】Click RUN button  to run the model; STOP button to stop current running; EXIT to quit current dialog. heck on the option (Show processing) to see more detailed running log data.</p>
+<br>
+<h3 id="toc8"><a name="RAPID excercises:-Excercise 1: get started-1.5 see the output"></a>4.6 View outputs</h3>
+<p>Simulated results are stored in the working folder(<strong>D:\RAPID\test4) . </strong>Major output files of Lidar are <strong>waveform_sgl.dat</strong> or <strong>waveform_multi.dat</strong>, which records the waveform of the scene. Notepad or UltraEdit can be used to open these *.dat files and View outputs. Then, copy them to Excel to draw curves. </p>
+<p><img src="soft/lidar_output_waveform.jpg" alt="" width="482" height="379"></p>
+<p>&nbsp;</p>
+<p><br>
+</p>
+<h2 id="toc12"><a name="RAPID excercises:-Excercise 5: Lidar point cloud simulation"></a>Exercise  5: Imgaging and simulating lidar point cloud</h2>
+<p>There are two types of Lidar simulations: (1) lidar64.exe by set small footprint and generate discrete returns; (2) img64.exe. Here, we will test the (2) method.</p>
+<p>img64.exe is mainly used to generate remote sensing images. The major command line parameters are: </p>
+<p>-f     -- force replace existent image files. </p>
+<p> -inf     -- force infinite replication of the scene to simulate large scale. </p>
+<p> -infsize --how many times to replicate the scene in one direction, default 100, that is to replicate the central scene in x and y directions: left 100, right 100, up 100. </p>
+<p> -fish    --  simulate fisheye 180 deg image and results are stored in fishview.img(fishview.hdr). </p>
+<p> -mid     --just output the middle or central subscene (3 by 3), just for better merging in large scale image simulation</p>
+<p> -reso 0.5--  set the output spatial resolution (default 0.5 m)  </p>
+<p> -look zen azim -- render the scene in a specific direction (zenith angle, azimuth angle) </p>
+<p> -air           -- simulate airborne images. Theresults are stored in airview.img(airview.hdr). </p>
+<p>To define the sensor location (x,y,z) and orientation (zen,azim) , a separate file (Camera.in) is needed. There is only one line:  x y z zen azim. When zen is between 90 and 180, sensor is point up, such as LAI observation and TLS scanning; if between 0 and 90 deg, sensor is looking down. For example, </p>
+<p><a href="../../合作交流/定量遥感学术会议/lidar"><code>4 4 0.01 180 0</code></a></p>
+<p>means defining a sensor at coordinate (4,4,0.01) to look straight up. </p>
+<p>If no option on both -fish and -air, parallel projection will be used using the view angles in viewbidir.dat. There will be a few images according to the view angles stored as refl*.img. These images can be opened by ENVI. </p>
+<p>To simulate point cloud, option -fish or -air is needed. Results are stored in pointcloud_air.txt (ALS scanning) or pointcloud.txt (mono-station 360 deg scanning, TLS). A typical command line will be: </p>
+<p><code>img64.exe -f -reso 0.5 -size 3000 air</code></p>
+<p>This command generates point cloud and multiple spectral images (airview.img or fishview.img). </p>
+<p></p>
+<h3 id="toc9"><a name="RAPID excercises:-Excercise 1: get started-1.1 Set up working folder"></a>5.1 Set the working folder</h3>
+<br>
+Click menu  <strong>Prepare-&gt; STEP 1</strong> (or toolbar icon  ①): In the popup dialog, browse and select a working folder (e.g. <strong>D:\RAPID\test5</strong>). <br>
+<br>
+<h3 id="toc15"><a name="RAPID excercises:-Excercise 1: get started-1.2 create a scene with one big tree and soil"></a>5.2 产生一个真实结构单木场景</h3>
+<p>【1】 Click menu  <strong>DTM-&gt;scene size.</strong> Set the scene size as length 20, width 20, cellsize 1 m, elevation 0, and slope 0. Then, Click the button  OK. <br>
+  【2】In the right panels, expand the treelist <strong>All components-&gt;Ellipse trees</strong>, to create ellipsoid tree. <br>
+  【3】Find and click the button  "<strong>New</strong>", which will generate a leaf node for the class of decidious tree, named as "Ellipse tree1" , with the tree structure as <strong>All components-&gt;Ellipse trees-&gt;Ellipse tree1.</strong><br>
+  【4】Click this node "<strong>Ellipse tree1</strong>", modifying the crown properties in the below editor. Specifically, change 3D tree model from 0 to 9 (e.g. T_Betula pendula) , change the Height to 10 m, Crown width to 4 m, Press enter to confirm change. Then, Click  button “Update” to complete data consistency. </p>
+<p><img src="soft/3dtreemodel.jpg" alt="" width="336" height="490"><br>
+  【5】Move mouse to the left map panel and click mouse once to plant one tree. The plant will be seen as a light green circle. <br>
+  【6】Click menu “Save”or toolbar save icon, in the popup dialog, select an output path (<strong>D:\RAPID\test5\imagetest.map</strong>), and save the scenes into a *.map file.</p>
+<p>【7】Click menu <strong>Prepare-&gt; STEP 2</strong> (or toolbar icon  ②): Transform the map file into poly.in file format (automatically generated in the working folder: <strong>:\RAPID\test5\poly.in</strong>), and generate default ref.in, optics.cat and optics files. <br>
+</p>
+<h3 id="toc16"><a name="RAPID excercises:-Excercise 1: get started-1.3 Review poly.in"></a>5.3 Visualize the 3D scene (poly.in) </h3>
+<p>【1】Click menu  View-&gt;3D Viewer (D) (or toolbar  button  ), invoke the 3D renderer  RGMDisp.exe.  <br>
+  【2】In the GUI of RGMDisp.exe, Click menu  project-&gt;open scene (or toolar button OPEN), select a file <strong>D:\RAPID\test5\poly.in</strong>. </p>
+<p>【3】Drap mouse to rotate the scene; zoom the scene using up/down arrow keys; switch the render type (wire or fill mode); check if the scene is realistic tree.  </p>
+<p><img src="soft/Betula.jpg" alt="" width="197" height="326"><br>
+</p>
+<h3 id="toc17"><a name="RAPID excercises:-Excercise 1: get started-1.3 Major inputs"></a>5.4 Major input setting</h3>
+<p>【1】Click menu <strong>Prepare-&gt; STEP 3</strong> (or toolbar icon  3):  Popup the dialog , you see two child windows Create raw files and Refine files, which are used to generate major input files and modify them.In the sensor type list, select  (RGB+NIR) . </p>
+<p>【2】Click Apply button in the Create raw files window, to generate default files. Then, switch to Refine files window, Click camera.in to edit the two angles (zenith and azimuth angles). Then, Click Close button to exit. </p>
+<p><img src="soft/camerain.jpg" alt="ref.in" width="608" height="368"><br>
+</p>
+<h3 id="toc18"><a name="RAPID excercises:-Excercise 1: get started-1.4 run the model"></a>5.5 Run RAPID</h3>
+<p>【1】Click menu <strong>Run-&gt; Go</strong>-64bit (or toolbar icon  64bit):  Shows the dialog for 64 bit OS Run RAPID. Left panel is for running options; right panel is for displaying the running processes.Chek option run fisheye and run imaging. </p>
+<p><img src="soft/img64run.jpg" alt="" width="700" height="381"></p>
+<p>【2】Click RUN button  to run the model; STOP button to stop current running; EXIT to quit current dialog. heck on the option (Show processing) to see more detailed running log data.</p>
+<p>If completed, RAPID will generate  0.5 m resolution with parallel projection (refl*.img) , fisheye images (fishview.img) and TLS point cloud (pointcloud.txt) . </p>
+<p>【3】 If ALS scanning mode is needed, please change the last line to: </p>
+<p><code>img64 -air -reso 0.2 -size 2000 </code></p>
+<br>
+<h3 id="toc19"><a name="RAPID excercises:-Excercise 1: get started-1.5 see the output"></a>5.6 View outputs</h3>
+<p>Simulated results are stored in the working folder(<strong>D:\RAPID\test5) . </strong>The parallel projected images (refl*.img) and fisheye images (fishview.img) can be opened directly by ENVI. The TLS point cloud (pointcloud.txt) and ALS scanning point cloud (pointcloud_air.tx) can be opened by notepad or UltraEdit  to open and View outputs. The CloudCompare can be used to render point cloud better. </p>
+<h2 id="toc13"><a name="RAPID excercises:-Excercise 7: Build your own scene by Matlab"></a>Exercise 6: Microwave backscattering simulation</h2>
+<p>Microwave backscattering simulation is the special part of RAPID2 (radar64.exe). There are two modes: (1) without image; (2) imaging (use -img). For example, </p>
+<p><code>radar64.exe -size 3000 -img -reso 0.20</code></p>
+<p>is the typical imaging mode. The simulated result is stored in radar_bX_vY.img, where X means which band, Y mean which view angle in viewbidir.dat. </p>
+<p>Withou image mode is without -img option. The results are stored in sigma_multi.dat and sigma_comp_multi.dat, which are storing total backscattering coefficients and component ones. </p>
+<p>A typical sigma*.dat looks like:</p>
+<p> <code>bandno Angle   VV    HH      VH      HV<br>
+  1  60.0000 -21.5657 -19.8244 -35.8378 -35.3159<br>
+  2  60.0000 -23.6837 -21.7896 -38.8723 -37.2386<br>
+  3  60.0000 -27.8889 -25.8136 -43.1764 -41.3003</code></p>
+<p>In microwave bands, the branches are becoming significantly important. The dielectronic constant is a new variable. Thus, two additional input files are defined: branch.in and microwave.in. The branch.in contains similar format to optics.cat, but with six parameters, which are large branch density (#/m3), branch length and diameter (m), small twig density, length and diameter. For solid objects, all six parameters are 0. For example: </p>
+<p><u><code>3 6 1 (three components, 6 parameters, multiplying coefficient 1.0) <br>
+  density1 length1 diameter1 density2 length2 diameter2 (1 for branch, 2 for twig)<br>
+  leaf00<br>
+  1.000000 1.000000 3.000000 15.000000 0.300000 1.000000<br>
+  stem00<br>
+  0 0 0 0 0 0<br>
+  Soil<br>
+  0 0 0 0 0 0</code></u></p>
+<p>To define the band information , the new file microwave.in (because it is not good to add them in the optics.in) is used to store the band and dielectronic information. However, the format is similar to optics.in. The component number is the same to optics.in. The band number is not related to optics.in anymore. Normally, there are only four bands to choose (X, C, L and P). In this exercise, we define three (C, L and P) bands. For each band, two numbers (one for real part, and the other for imagery part) are given to define the dielectronic constant. The real part is at the first line and the imagery part is at the second line. Because there are both leaves and branches in porous objects, which have different dielectronic constants, the one leaf componet in optics.in should contain two sub-components (leaf and branch). Thus, the first three columns are for leaves, and last three for branches. For example: </p>
+<p><code>3 3 1 <u>(three components, 3 bands, multiplying coefficent1.0) </u><br>
+  wavelen 3 6.3 18.75 (1.6, 4.75, and 10 GHz) (X, C, and L bands)<br>
+  leaf00<br>
+  27.00  27.00  27.00 10.19  10.19  10.19 (real part of dielectronic constant, three 27.0 for leaf; three 10.19 for branches)<br>
+  -12.43 -12.43 -12.43 -3.36 -3.36 -3.36 (imagary part of dielectronic constant, three 27.0 for leaf; three 10.19 for branches)<br>
+  stem00<br>
+  16.45  16.45  16.45 16.45  16.45  16.45 (not porous object, so the first three and last three columns are the same)<br>
+  -7.31  -7.31  -7.31 -7.31  -7.31  -7.31 (not porous object, so the first three and last three columns are the same)<br>
+  soil<br>
+  8.458 8.458 8.458  8.458 8.458 8.458 (not porous object, so the first three and last three columns are the same)<br>
+  -1.234 -1.234 -1.234 -1.234 -1.234 -1.234</code><code>(not porous object, so the first three and last three columns are the same)</code><br>
+</p>
+<p>It is clear that there are two lines of numbers for each component. The first line includes real part; second line stores imagary part. First three columns are for leaf and last three for branches if the componet is porous object (e.g. leaf00 in this exercise). </p>
+<p>Before running microwave scattering, ref64.exe should be executed first to create cat.rt, pnorm.dat, and pcenter.dat files. The command line looks like:</p>
+<p><code>ref64.exe -size 1024 spec</code></p>
+<p>Now, we start the specific exercise . </p>
+<p></p>
+<h3 id="toc20"><a name="RAPID excercises:-Excercise 1: get started-1.1 Set up working folder"></a>6.1 Set the working folder</h3>
+<br>
+Click menu  <strong>Prepare-&gt; STEP 1</strong> (or toolbar icon  ①): In the popup dialog, browse and select a working folder (e.g. <strong>D:\RAPID\test6</strong>). <br>
+<br>
+<h3 id="toc21"><a name="RAPID excercises:-Excercise 1: get started-1.2 create a scene with one big tree and soil"></a>6.2 Create a scene with a single tree and a single building</h3>
+<p>【1】 Click menu  <strong>DTM-&gt;scene size.</strong> Set the scene size as length 60, width 60, cellsize 0.5 m, elevation 0, and slope 0. Then, Click the button  OK. <br>
+  【2】In the right panels, expand the treelist <strong>All components-&gt;Ellipse trees</strong>, to create ellipsoid tree. <br>
+  【3】Find and click the button  "<strong>New</strong>", which will generate a leaf node for the class of ellipsoid canopies, named as "Ellipse tree1" , with the tree structure as <strong>All components-&gt;Ellipse trees-&gt;Ellipse tree1.</strong><br>
+  【4】Click this node "<strong>Ellipse tree1</strong>", and modifying the canopy structure in the property editor below. Stree that this modification is very important. We change: <em><u>Height to 10m, Crown width to 4m, Crown length to 5m, DBH to 25 cm, Leaf size to 10 cm, leaf thickness to 0.1 cm, Branch density to 4.1, Branch length to 0.75, Branch diameter to 0.7</u></em>, Press enter to confirm change. Then, Click  button “Update” to refresh all related data. </p>
+<p><img src="soft/MV_scene.jpg" alt="tree selection" width="991" height="647"><br>
+  【5】Move mouse to the left map panel and click once to plant one tree, The plant is shown as a green circle. </p>
+<p>【6】In the right panels, expand the treelist <strong>All components-&gt;Buildings</strong>, to create a building. <br>
+  【7】Find and click the button  "<strong>New</strong>", which will generate a leaf node for the class of building, named as "Building 1" , with the tree structure as <strong>All components-&gt;Buildings-&gt;Building 1.</strong><br>
+  【8】Click this node "<strong>Building 1</strong>", modifying the building structure in the properties editor below. The key change include: <em><u>Top Height as 6m, width as 6m, Building height as 6m, Length as 10 m, Azimuth orientation angle 90 deg</u></em>, Press enter to confirm change. Then, Click  button “Update” to refresh data and complete data consistency. </p>
+<p><img src="soft/MV_scene_building.jpg" alt="" width="363" height="643"><br>
+  【9】Click menu “Save”or toolbar save icon, in the popup dialog, select an output path (<strong>D:\RAPID\test6\microwave.map</strong>), and save the scenes into a *.map file.</p>
+<p>【10】Click menu <strong>Prepare-&gt; STEP 2</strong> (or toolbar icon  ②): Transform the map file into poly.in file format (automatically generated in the working folder: <strong>:\RAPID\test6\poly.in</strong>), and generate default ref.in, optics.cat,optics.in, branch.in and microwave.in files. <br>
+</p>
+<h3 id="toc22"><a name="RAPID excercises:-Excercise 1: get started-1.3 Review poly.in"></a>6.3 Visualize the 3D scene (poly.in) </h3>
+<p>【1】Click menu  View-&gt;3D Viewer (D) (or toolbar  button  ), invoke the 3D renderer  RGMDisp.exe.  <br>
+  【2】In the GUI of RGMDisp.exe, Click menu  project-&gt;open scene (or toolar button OPEN), select a file <strong>D:\RAPID\test6\poly.in</strong>. </p>
+<p>【3】Drap mouse to rotate the scene; zoom the scene using up/down arrow keys; switch the render type (wire or fill mode); check if the scene is what you really need (one tree and one building).  </p>
+<p><img src="soft/MV_scene_3d.jpg" alt="Betula" width="467" height="249"><br>
+</p>
+<h3 id="toc23"><a name="RAPID excercises:-Excercise 1: get started-1.3 Major inputs"></a>6.4 Major input setting</h3>
+<p>【1】Click menu <strong>Prepare-&gt; STEP 3</strong> (or toolbar icon  3):  Popup the dialog , you see two child windows Create raw files and Refine files, which are used to generate major input files and modify them.In the sensor type list, we must select  Full wavelengths (RGB+NIR+TIR+Radar) to include radar simulations. </p>
+<p>【2】Click Apply button in the Create raw files window, to generate default files. Then, switch to Refine files window, Click microwave.in. In the popuped notepad, changed the content as:</p>
+<p><code>4 3 1<br>
+  wavelen 6 25 68 (5.3, 1.25, and 0.44 GHz)<br>
+  leaf00<br>
+  31.523 36.273 39.979  9.978 12.468 14.864 <br>
+  -9.498 -11.217 -21.119 -3.197 -4.309 -6.737 <br>
+  stem00<br>
+  14.129 17.151 20.023 14.129 17.151 20.023 <br>
+  -4.297 -5.796 -9.675 -4.297 -5.796 -9.675 <br>
+  House30<br>
+  2.433  2.294  2.294  2.433  2.294  2.294 <br>
+  -0.100 -0.126 -0.126 -0.100 -0.126 -0.126 <br>
+  Soil<br>
+  5.664  4.416  4.416  5.664  4.416  4.416 <br>
+  -0.984 -1.327 -1.327 -0.984 -1.327 -1.327 </code><br>
+</p>
+<p>Close the notepad and Click button &quot;viewbidir.dat&quot; and modify the content in the new notepad as:</p>
+<p><code>0  0.002  c (parallel radar incident)<br>
+  3 (three angles)<br>
+  60 90 (zenith, azimuth)<br>
+  45 90 (zenith, azimuth)<br>
+  30 90</code><code>(zenith, azimuth)</code></p>
+<p>Then, close the notepad and click Close button to exit. </p>
+<h3 id="toc24"><a name="RAPID excercises:-Excercise 1: get started-1.4 run the model"></a>6.5 Run RAPID</h3>
+<p>【1】Click menu <strong>Run-&gt; Go</strong>-64bit (or toolbar icon  64bit):  Shows the dialog for 64 bit OS Run RAPID. Left panel is for running options; right panel is for displaying the running processes. Check on &quot;run radar&quot;, delete the line 1,2 and 4. The left command lines are two lines: </p>
+<p><code>ref64 spec -size 2000 <br>
+  radar64 -reso 0.50 -img -size 2000 </code></p>
+<p>【2】Click RUN button  to run the model; STOP button to stop current running; EXIT to quit current dialog. Check on the option (Show processing) to see more detailed running log data.</p>
+<p>If completed, RAPID will generate  sigma_multi.dat and sigma_comp_multi.dat, as well as the radar images (radar_b*_v*.img) .  <br>
+</p>
+<h3 id="toc25"><a name="RAPID excercises:-Excercise 1: get started-1.5 see the output"></a>6.6 View outputs</h3>
+<p>Simulated results are stored in the working folder (<strong>D:\RAPID\test6) . </strong>Radar images (radar*.img) can be opened directly by ENVI. Backscattering coefficients (sigma*.txt) can be opened by Notepad or UltraEdit.  </p>
+<p>&nbsp;</p>
+                       <div>
+                           
+                            <hr>
+                   <h2 id="section5">Videos</h2>
+		<video src="soft/RAPID_DemoV2.mp4" width="640" height="480" type="video/mp4" controls="controls"  >	
+ 		your browser does not support the video.</video>
+                   <div>
+                            <p text-align="justify">
+                          
+                            <hr>
+                            <h2 id="section6">SD(Software Downloading)                       </h2>
+                            <br>
+                       <div>
+                            <p text-align="justify">
+1. <strong>TRGM</strong>: <a href="soft/TRGM/Bin.zip">Main program (14 MB)</a>, <a href="soft/TRGM/Help.zip">help document (4MB)</a>, and <a href="soft/TRGM/Samples.zip">Sample files(9 MB)</a>. </p>
+                            <p text-align="justify">2. <strong>RAPID1</strong>: <a href="soft/RAPID1.0/RAPID.msi">msi (5 MB)</a>, <a href="soft/RAPID1.0/Bin.zip">main program (22 MB)</a>, <a href="soft/RAPID1.0/Help.zip">help documents and ppts (11 MB)</a>, and <a href="soft/RAPID1.0/Examples.zip">Sample files (11 MB)</a>. </p>
+                         <p text-align="justify">Videos: <a href="soft/RAPID1.0/video_1.exe">1 (Install and 3D scene, 7 MB)</a>, <a href="soft/RAPID1.0/video_2.exe">2 (Setup inputs, 3.5 MB)</a>, <a href="soft/RAPID1.0/Video_3.exe">3 (Run and view results, 4 MB)</a>, and <a href="soft/RAPID1.0/Video_4.exe">4 (Other functions, 1.5 MB)</a>.</p>
+                            <p text-align="justify">3. <strong>RAPID2</strong>: <a href="soft/RAPID2/RAPID2.msi">msi (151 MB)</a> and <a href="soft/RAPID2/Examples.zip">Sample files (36 MB)</a>. </p>
+                            <p text-align="justify">4. <strong>RAPID3</strong>: <a href="soft/RAPID3/RAPID3.zip">Main programm (1 MB)</a> and Examples (<a href="soft/RAPID3/HET03.zip">HET03</a>, <a href="soft/RAPID3/HET05.zip">HET05</a>).</p>
+                            <p text-align="justify">5. <strong>RAPID_IGARSS2019</strong>: <a href="soft/IGARSS2019/RAPID_IGARSS.msi">Main programm (34.8 MB)</a> and <a href="soft/IGARSS2019/TrainRAPID.rar">Training cases (28MB)</a></p>
+                       </div>
+
+              </div>
+         </div>
+    </div>
+
+                  <h2 id="section7">Software operation manual</h2>
+                  <p><a href="soft/RAPID1.0/Help/TRGM-Chinese Version.doc">RAPID v1 Chinese</a></p>
+                  <p><a href="soft/RAPID1.0/Help/RAPID_Help_Document.doc">RAPID v1 English</a></p>
+                  <p><a href="soft/IGARSS2019/Help/RAPID_Help_Document_V3.doc">RAPID v2 English</a></p>
+                   <br><br>
+                  <h2 id="section8">Message Board</h2>
+                  <p><a href="http://www.3dforest.cn/myasp/index.asp">Click here to send any question to us</p>
+              </div>
+         </div>
+  </div>
+    <br/>
+    <br/>
+
+
+    <hr>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

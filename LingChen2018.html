@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="欢迎访问黄华国课题组/>
+    <meta name="description" content="欢迎访问黄华国课题组 林业定量遥感实验室" />
+    <title>欢迎访问黄华国课题组</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+    body {
+	background-color: #FFF;
+}
+body,td,th {
+	color: #000;
+}
+@font-face{
+font-family:"Times New Roman";
+}
+
+@font-face{
+font-family:"宋体";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@font-face{
+font-family:"Calibri";
+}
+
+@font-face{
+font-family:"Arial";
+}
+
+@font-face{
+font-family:"Georgia";
+}
+
+@font-face{
+font-family:"华文行楷";
+}
+
+@font-face{
+font-family:"华文楷体";
+}
+
+@font-face{
+font-family:"楷体_GB2312";
+}
+
+@list l0:level1{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%1.";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:21.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level2{
+mso-level-number-format:alpha-lower;
+mso-level-suffix:tab;
+mso-level-text:"%2)";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:42.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level3{
+mso-level-number-format:lower-roman;
+mso-level-suffix:tab;
+mso-level-text:"%3.";
+mso-level-tab-stop:none;
+mso-level-number-position:right;
+margin-left:63.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level4{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%4.";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:84.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level5{
+mso-level-number-format:alpha-lower;
+mso-level-suffix:tab;
+mso-level-text:"%5)";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:105.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level6{
+mso-level-number-format:lower-roman;
+mso-level-suffix:tab;
+mso-level-text:"%6.";
+mso-level-tab-stop:none;
+mso-level-number-position:right;
+margin-left:126.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level7{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%7.";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:147.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level8{
+mso-level-number-format:alpha-lower;
+mso-level-suffix:tab;
+mso-level-text:"%8)";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:168.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l0:level9{
+mso-level-number-format:lower-roman;
+mso-level-suffix:tab;
+mso-level-text:"%9.";
+mso-level-tab-stop:none;
+mso-level-number-position:right;
+margin-left:189.0000pt;text-indent:-21.0000pt;font-family:'Times New Roman';}
+
+@list l1:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:21.0000pt;text-indent:-21.0000pt;font-family:Wingdings;font-size:6.5000pt;}
+
+@list l1:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06E;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:42.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+@list l1:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F075;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:63.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+@list l1:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:84.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+@list l1:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06E;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:105.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+@list l1:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F075;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:126.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+@list l1:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:147.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+@list l1:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06E;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:168.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+@list l1:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F075;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:189.0000pt;text-indent:-21.0000pt;font-family:Wingdings;}
+
+p.MsoNormal{
+mso-style-name:正文;
+mso-style-parent:"";
+margin:0pt;
+margin-bottom:.0001pt;
+mso-pagination:none;
+text-align:justify;
+text-justify:inter-ideograph;
+font-family:Calibri;
+font-size:10.5000pt;
+mso-font-kerning:1.0000pt;
+}
+
+h1{
+mso-style-name:"标题 1";
+mso-style-next:正文;
+margin-top:17.0000pt;
+margin-bottom:16.5000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+text-align:justify;
+text-justify:inter-ideograph;
+mso-outline-level:1;
+line-height:240%;
+font-family:Calibri;
+font-weight:bold;
+font-size:22.0000pt;
+mso-font-kerning:22.0000pt;
+}
+
+h2{
+mso-style-name:"标题 2";
+margin:0pt;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+text-align:left;
+mso-outline-level:2;
+font-family:宋体;
+font-weight:bold;
+font-size:18.0000pt;
+}
+
+span.10{
+font-family:'Times New Roman';
+}
+
+span.15{
+font-family:'Times New Roman';
+}
+
+span.16{
+font-family:'Times New Roman';
+color:rgb(0,0,255);
+text-decoration:underline;
+text-underline:single;
+}
+
+span.17{
+font-family:宋体;
+font-weight:bold;
+font-size:18.0000pt;
+}
+
+span.18{
+font-family:'Times New Roman';
+}
+
+span.19{
+font-family:'Times New Roman';
+}
+
+span.20{
+font-family:'Times New Roman';
+}
+
+span.21{
+font-family:'Times New Roman';
+font-size:9.0000pt;
+}
+
+span.22{
+font-family:'Times New Roman';
+font-size:9.0000pt;
+}
+
+span.23{
+font-family:'Times New Roman';
+}
+
+span.24{
+font-family:'Times New Roman';
+}
+
+span.25{
+font-family:'Times New Roman';
+}
+
+span.26{
+font-family:Calibri;
+font-size:9.0000pt;
+mso-font-kerning:1.0000pt;
+}
+
+span.27{
+font-family:Calibri;
+font-weight:bold;
+font-size:22.0000pt;
+mso-font-kerning:22.0000pt;
+}
+
+p.MsoAcetate{
+mso-style-name:批注框文本;
+mso-style-noshow:yes;
+margin:0pt;
+margin-bottom:.0001pt;
+mso-pagination:none;
+text-align:justify;
+text-justify:inter-ideograph;
+font-family:Calibri;
+font-size:9.0000pt;
+mso-font-kerning:1.0000pt;
+}
+
+p.MsoHeader{
+mso-style-name:页眉;
+margin:0pt;
+margin-bottom:.0001pt;
+border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.7500pt solid windowtext;
+padding:0pt 0pt 1pt 0pt ;
+layout-grid-mode:char;
+mso-pagination:none;
+text-align:center;
+font-family:Calibri;
+font-size:9.0000pt;
+mso-font-kerning:1.0000pt;
+}
+
+p.MsoFooter{
+mso-style-name:页脚;
+margin:0pt;
+margin-bottom:.0001pt;
+layout-grid-mode:char;
+mso-pagination:none;
+text-align:left;
+font-family:Calibri;
+font-size:9.0000pt;
+mso-font-kerning:1.0000pt;
+}
+
+p.31{
+mso-style-name:"List Paragraph";
+margin:0pt;
+margin-bottom:.0001pt;
+text-indent:21.0000pt;
+mso-char-indent-count:2.0000;
+mso-pagination:none;
+text-align:justify;
+text-justify:inter-ideograph;
+font-family:Calibri;
+font-size:10.5000pt;
+mso-font-kerning:1.0000pt;
+}
+
+p.32{
+mso-style-name:列出段落;
+margin:0pt;
+margin-bottom:.0001pt;
+text-indent:21.0000pt;
+mso-char-indent-count:2.0000;
+mso-pagination:none;
+text-align:justify;
+text-justify:inter-ideograph;
+font-family:Calibri;
+mso-fareast-font-family:宋体;
+mso-bidi-font-family:'Times New Roman';
+font-size:10.5000pt;
+mso-font-kerning:1.0000pt;
+}
+
+p.33{
+mso-style-name:Default;
+margin:0pt;
+margin-bottom:.0001pt;
+mso-layout-grid-align:none;
+text-autospace:none;
+mso-pagination:none;
+font-family:'Times New Roman';
+color:rgb(0,0,0);
+font-size:12.0000pt;
+}
+
+p.34{
+mso-style-name:CV-Record;
+margin-left:99.2500pt;
+text-indent:-99.2500pt;
+mso-pagination:widow-orphan;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:宋体;
+mso-bidi-font-family:'Times New Roman';
+font-size:11.0000pt;
+}
+
+p.35{
+mso-style-name:列出段落1;
+margin:0pt;
+margin-bottom:.0001pt;
+text-indent:21.0000pt;
+mso-char-indent-count:2.0000;
+mso-pagination:widow-orphan;
+text-align:left;
+font-family:宋体;
+font-size:12.0000pt;
+}
+
+p.36{
+mso-style-name:ResumeText;
+margin-bottom:3.0000pt;
+mso-para-margin-bottom:0.0000gd;
+mso-pagination:widow-orphan;
+text-align:left;
+font-family:'Times New Roman';
+mso-fareast-font-family:宋体;
+font-size:10.0000pt;
+}
+
+p.37{
+mso-style-name:"Normal \(Web\)";
+margin:0pt;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+text-align:left;
+font-family:宋体;
+font-size:12.0000pt;
+}
+
+span.msoIns{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:underline;
+text-underline:single;
+color:blue;
+}
+
+span.msoDel{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:line-through;
+color:red;
+}
+
+table.MsoNormalTable{
+mso-style-name:普通表格;
+mso-style-parent:"";
+mso-style-noshow:yes;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-family:'Times New Roman';
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+@page{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}@page Section0{
+margin-top:56.7000pt;
+margin-bottom:56.7500pt;
+margin-left:49.6500pt;
+margin-right:63.7000pt;
+size:595.3000pt 841.9000pt;
+layout-grid:15.6000pt;
+}
+div.Section0{page:Section0;}
+</style>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
+  <body>
+
+
+     <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+                  <!-- Logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
+                <a class="navbar-brand image-logo" href="http://www.3dforest.cn/index.html"><img src="img/huanglab.png" alt="Remote sensing of forest" /></a>
+            </div>
+            <!-- /Logo -->
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-sm" href="index.html" target="_blank" onClick="_hmt.push(['_trackEvent', 'navbar', 'click', 'navbar-首页'])">首页</a>
+        </div>
+        <div class="navbar-collapse collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="hidden-sm hidden-md"><a href="direction.html"  target="_blank" onClick="_hmt.push(['_trackEvent', 'navbar', 'click', 'v2doc'])">科研方向</a></li>
+          <li class="hidden-sm hidden-md"><a href="publication.html"  target="_blank" onClick="_hmt.push(['_trackEvent', 'navbar', 'click', 'v2doc'])">发表文章</a></li>
+            
+           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">组内成员 <b class="caret"></b> </a>
+	<ul class="dropdown-menu">
+        <li><a href="cn_people1.html" target="_blank">现有成员</a></li>
+        <li><a href="cn_people2.html" target="_blank">离组人员</a></li>
+	</ul>
+	</li>
+            <li><a href="cn_activity.html" target="_blank">小组活动</a></li>
+                   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">科研感悟 <b class="caret"></b> </a>
+	<ul class="dropdown-menu">
+        <li><a href="history.html" target="_blank">遥感历史</a></li>
+		<li><a href="fighting.html" target="_blank">科研故事</a></li>
+	</ul>
+	</li>
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">数据&软件 <b class="caret"></b> </a>
+	<ul class="dropdown-menu">
+		<li><a href="data.html" target="_blank">数据</a></li>
+		<li><a href="rapid.html" target="_blank">RAPID模型</a></li>
+	</ul>
+	</li>
+          </ul>
+          <ul class="nav navbar-nav hidden-sm" style="float:right">
+            <li><a href="en_people1.html">English</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    </br></br></br>
+div.Section0{page:Section0;}</style></head><body style="tab-interval:21pt;text-justify-trim:punctuation;" ><!--StartFragment--><div class="Section0"  style="layout-grid:15.6000pt;" ><p class=MsoNormal  style="margin-bottom:15.6000pt;mso-para-margin-bottom:1.0000gd;" ><img width="643"  height="857"  src="img/LingChen20180.jpg" ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span></b><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  style="margin-bottom:15.6000pt;mso-para-margin-bottom:1.0000gd;" ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></b></p><p class=MsoNormal  style="margin-bottom:15.6000pt;mso-para-margin-bottom:1.0000gd;" ><b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" >Ling</span></b><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;Chen</span></b><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><p class=29  style="margin-left:0.0000pt;text-indent:0.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Organization: </span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >The College of Forestry, Beijing Forestry University </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=29 ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Address: </span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >No.35 Tsinghua East Road Haidian District,</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Beijing,</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >P.R.China</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span></b><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></p><p class=29 ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Phone:</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;86-10-6233</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >8133 </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >(O</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >ffice</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >) </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=29 ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Cell: 86-13601292164</span></b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=29 ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Email:</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><span><a href="mailto:chenling8247@126.com" ><u><span class="16"  style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';color:rgb(0,0,255);text-decoration:underline;text-underline:single;font-size:10.5000pt;" >chenling</span></u><u><span class="16"  style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,255);text-decoration:underline;text-underline:single;font-size:10.5000pt;" >8247@126.com</span></u></a></span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; </span><span><a href="mailto:chenling8247@hotmail.com" ><u><span class="16"  style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';color:rgb(0,0,255);text-decoration:underline;text-underline:single;font-size:10.5000pt;" >chenling</span></u><u><span class="16"  style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,255);text-decoration:underline;text-underline:single;font-size:10.5000pt;" >8247@hotmail.com</span></u></a></span><b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></b><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  style="margin-top:15.6000pt;mso-para-margin-top:1.0000gd;border-bottom:1.5000pt solid windowtext;mso-border-bottom-alt:1.5000pt solid windowtext;padding:0pt 0pt 1pt 0pt ;mso-layout-grid-align:none;layout-grid-mode:char;text-autospace:none;line-height:114%;" ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >E</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-size:11.0000pt;mso-font-kerning:0.0000pt;" >ducational background</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-size:11.0000pt;mso-font-kerning:0.0000pt;" >and Professional Experience</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >B.Sc.,</span><span style="mso-spacerun:'yes';font-family:Calibri;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Sept 200</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >0</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-June 2004, </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Cartography and Geography Information System, Lanzhou </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >U</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >niversity</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >M.Sc.</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >,</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Sept 200</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >4</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-June 2007, </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Hydrology and Water Resources Engineering, Lanzhou </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >U</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >niversity</span><span style="mso-spacerun:'yes';font-family:Arial;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Ph.D., Sept </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >2007</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-June </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >2, Quantitative Remote Sensing, </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Beijing</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;background:rgb(255,255,255);mso-highlight:rgb(255,255,255);" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Normal University</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="mso-layout-grid-align:none;text-autospace:none;text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Title</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;of </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Ph.D. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >dissertation</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >- </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Estimation of surface shortwave radiation components under all sky conditions over Tibetan Plateau from polar orbiting and geostationary satellite data</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="mso-layout-grid-align:none;text-autospace:none;text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >S</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >upervisor- </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Guangjian Yan </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >(</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;background:rgb(255,255,255);mso-highlight:rgb(255,255,255);" >Beijing</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;background:rgb(255,255,255);mso-highlight:rgb(255,255,255);" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Normal University</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="mso-layout-grid-align:none;text-autospace:none;text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >V</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >isiting Scholar, Aug. 2017-</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Aug.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >8, Department of Earth and Environment, Boston University</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="mso-layout-grid-align:none;text-autospace:none;text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >S</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >upervisor- </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Ranga Myneni </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >(</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Boston University</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >)</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Assistant professor from July </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >2012</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >in </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >the College of F</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >orestry of Beijing Forestry</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;University</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:15.6000pt;mso-para-margin-top:1.0000gd;border-bottom:1.5000pt solid windowtext;mso-border-bottom-alt:1.5000pt solid windowtext;padding:0pt 0pt 1pt 0pt ;mso-layout-grid-align:none;layout-grid-mode:char;text-autospace:none;line-height:114%;" ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-weight:bold;font-size:14.0000pt;mso-font-kerning:0.0000pt;" >R</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-size:11.0000pt;mso-font-kerning:0.0000pt;" >esearch interests</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-size:11.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=36  style="margin-left:21.0000pt;text-indent:-21.0000pt;mso-char-indent-count:0.0000;text-align:left;line-height:150%;mso-list:l1 level1 lfo1;" ><![if !supportLists]><span style="font-family:Wingdings;font-size:6.5000pt;mso-font-kerning:1.0000pt;" ><span style='mso-list:Ignore;' >&#108;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Identification of tree species and estimation of forest structures</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;using </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >VHR images</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=36  style="margin-left:21.0000pt;text-indent:-21.0000pt;mso-char-indent-count:0.0000;text-align:left;line-height:150%;mso-list:l1 level1 lfo1;" ><![if !supportLists]><span style="font-family:Wingdings;font-size:6.5000pt;mso-font-kerning:1.0000pt;" ><span style='mso-list:Ignore;' >&#108;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >- Characterization of anisotropic behavior of forest using VHR images and 3D RT model</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=36  style="margin-left:21.0000pt;text-indent:-21.0000pt;mso-char-indent-count:0.0000;text-align:left;line-height:150%;mso-list:l1 level1 lfo1;" ><![if !supportLists]><span style="font-family:Wingdings;font-weight:bold;font-size:6.5000pt;mso-font-kerning:1.0000pt;" ><span style='mso-list:Ignore;' >&#108;<span>&nbsp;</span></span></span><![endif]><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-weight:bold;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-</span></b><b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-weight:bold;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Estimation of surface solar radiation under all sky conditions</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Dr. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Chen</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;has established a</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;forest observational network</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;of </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-style:italic;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Chinese </span></i><i><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-style:italic;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >fir</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;forests in Southeastern China. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:15.6000pt;mso-para-margin-top:1.0000gd;border-bottom:1.5000pt solid windowtext;mso-border-bottom-alt:1.5000pt solid windowtext;padding:0pt 0pt 1pt 0pt ;mso-layout-grid-align:none;layout-grid-mode:char;text-autospace:none;line-height:114%;" ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >H</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-size:12.0000pt;mso-font-kerning:0.0000pt;" >osting financial supports</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >National Natural Science Foundation of China (Grant No. 31570617, 2016</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >9, main participant)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >National Natural Science Foundation of China (Grant No. 41571332, 2016</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >9, main participant)</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >National Natural Science Foundation of China</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;(</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Grant No. 41301357, </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >4</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >6, director</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >T</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >he Fundamental Research Funds for the Central Universities'</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >project</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;(</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Grant No. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >TD2013-1, </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >3</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >-2015</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, co-</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >director</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="text-align:left;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Beijing Forestry University Young Scientist Fund</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >project</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;(</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >Grant No. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >BLX2012033, </span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >2</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >-201</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >4, director</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:15.6000pt;mso-para-margin-top:1.0000gd;border-bottom:1.5000pt solid windowtext;mso-border-bottom-alt:1.5000pt solid windowtext;padding:0pt 0pt 1pt 0pt ;mso-layout-grid-align:none;layout-grid-mode:char;text-autospace:none;line-height:114%;" ><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >P</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';line-height:114%;font-size:11.0000pt;mso-font-kerning:0.0000pt;" >ublications from 2010</span><b><span style="mso-spacerun:'yes';font-family:Arial;line-height:114%;font-weight:bold;font-size:10.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><a name="OLE_LINK1" ></a><![if !supportLists]><span style="font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >1.<span>&nbsp;</span></span></span><![endif]><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><a name="OLE_LINK2" >Chen, L.</a></span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Mei, G.; Yan, K.; Hao, W.; Yu, X. Species Discrimination of Plantations in Subtropical China Using 4-Band VHR Imagery and an Operational Image Analysis Framework.</span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2018</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 11(8), 2800 - 2813.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >2.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Mei, G.;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;;C</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >a</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >o, Y.; Sun Y.; Wang, M. Retrieving the basal area of </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Cunninghamia lanceolata</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;based on GIS geometric calculations, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Journal of Nanjing Forestry University (Nat. Sci. Ed)</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2017</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 02, 198-202 </span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >(in Chinese with </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >E</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >nglish abstract)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >3.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Yan, G.; Wang, T.; Jiao, Z.; Mu, X.; Zhao, J.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Topographic radiation modeling and spatial scaling of clear-sky land surface longwave radiation over rugged terrain. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Remote Sensing of Environment</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2016</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >172</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 15-27.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >4.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Yan, G.; Hu, R.; Wang, Y.; Ren, H.; Song, W.; Qi, J.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >. Scale effect in indirect measurement of leaf area index. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >IEEE Transactions on Geoscience and Remote Sensing</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2016</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >54</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 3475-3484.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >5.<span>&nbsp;</span></span></span><![endif]><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >.; Yan, G.; Ren, H.; Wang, T. A simple fusion algorithm of polar-orbiting and geostationary satellite data for the estimation of surface shortwave fluxes, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2016</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >,</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2657-2660.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >6.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Hao, W.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Mei, G. Effects of slope aspect on diameter distribution of Chinese fir (</span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Cunninghamia Ianceolata</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >) plantations, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Journal of Northwest A&F University (Nat. Sci. Ed)</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2016</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 44, 61-69 </span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >(in Chinese with </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >E</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >nglish abstract)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >7.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Lin, Q.;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Huang, H.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Yu, L.; Huang, K. Simulation of needle reflectance spectrum and sensitivity analysis of biochemical parameters of Pinus Yunnanensis in different healthy status, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Spectroscopy and Spectral Analysis</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2016</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 36, 2538-2545</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;(in Chinese with </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >E</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >nglish abstract)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >8.<span>&nbsp;</span></span></span><![endif]><b><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen L.</span></b><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Hao W.; Gao D.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;The latest applications of optical image texture in</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >forestry, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Journal of Beijing Forestry University</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2015</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 37, 1-12 </span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >(in Chinese with </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >E</span><span style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:0.0000pt;" >nglish abstract)</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >9.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Jiao, Z.; Yan, G.; Zhao, J.; Wang, T.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Estimation of surface upward longwave radiation from MODIS and VIIRS clear-sky data in the Tibetan Plateau. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Remote Sensing of Environment</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2015</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >162</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 221-237.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >10.<span>&nbsp;</span></span></span><![endif]><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Yan, G.; Wang, T. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Shortwave radiative transfer modeling at large scale for partial cloudy conditions</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >IEEE International Geoscience and Remote Sensing Symposium (IGARSS) </span></i><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2015</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >,</span><span style="mso-spacerun:'yes';font-family:Calibri;font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >1578-1581.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >11.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Zou, J.; Yan, G.;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Estimation of Canopy and Woody Components Clumping Indices at Three Mature </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Picea crassifolia</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Forest Stands. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing </span></i><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2015</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >8</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 1413-1422.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >12.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Wang, T.; Yan, G.; Shi, J.; Mu, X.;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Ren, H.; Jiao Z.; Zhao J. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Topographic correction of retrieved surface shortwave radiative fluxes from space under clear-sky conditions</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 2014, 1813-1816.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >13.<span>&nbsp;</span></span></span><![endif]><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Yan, G.; Wang, T.; Ren, H.; Calb&#243;, J.; Zhao, J.; McKenzie, R. Estimation of surface shortwave radiation components under all sky conditions: Modeling and sensitivity analysis. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Remote Sensing of Environment </span></i><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2012</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >123</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 457-469.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;mso-layout-grid-align:none;text-autospace:none;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >14.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Li, A.; Bo, Y.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Bayesian maximum entropy data fusion of field-observed leaf area index (LAI) and Landsat Enhanced Thematic Mapper Plus-derived LAI. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >International Journal of Remote Sensing </span></i><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2012</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >34</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 227-246.</span><span style="mso-spacerun:'yes';font-family:宋体;mso-hansi-font-family:Calibri;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;mso-layout-grid-align:none;text-autospace:none;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >15.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Wang, T.; Yan, G.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Consistent retrieval methods to estimate land surface shortwave and longwave radiative flux components under clear-sky conditions. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Remote Sensing of Environment</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2012</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >124</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 61-71.</span><span style="mso-spacerun:'yes';font-family:宋体;mso-hansi-font-family:Calibri;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >16.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Ren, H.; Yan, G.; </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Li, Z. Angular effect of MODIS emissivity products and its application to the split-window algorithm. </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >ISPRS Journal of Photogrammetry and Remote Sensing </span></i><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2011</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >66</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 498-507.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >17.<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Wang, T.; Yan, G.; Mu, X.;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Clear sky Net Surface Radiative Fluxes over rugged terrain from satellite measurements</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2011</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 4265-4268.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-bottom:4.6500pt;margin-left:21.0000pt;mso-para-margin-bottom:0.3000gd;text-indent:-21.0000pt;text-align:left;mso-list:l0 level1 lfo2;" ><![if !supportLists]><span style="font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >18.<span>&nbsp;</span></span></span><![endif]><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >Chen, L.</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >; Yan, G.; Ren, H.; Li, A. </span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >A modified vegetation index based algorithm for thermal imagery sharpening</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-style:italic;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</span></i><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, </span><b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-weight:bold;font-size:10.5000pt;mso-font-kerning:0.0000pt;" >2010</span></b><span style="mso-spacerun:'yes';font-family:'Times New Roman';color:rgb(0,0,0);font-size:10.5000pt;mso-font-kerning:0.0000pt;" >, 2444-2447.</span><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:楷体_GB2312;font-size:10.5000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p></div><!--EndFragment-->
+       
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$(function(){
+	/**软件功能切换js**/
+	$(".soft_con_icon ul li a").mouseover(function(){
+		var id = $(this).attr("id");
+		var x=$(this).parent().index();
+		$(this).children("p").css({"color":"#008dd9"}).parent().parent().siblings().children().children("p").css({"color":"#333333"});
+
+
+		if(x==0){
+		   $("#xzgl").css({"display":"block"}).siblings().css({"display":"none"});
+		   $(".soft_con1").css({"background":" url(images/line_select_001.gif)"});
+		}else if(x==1){
+		   $("#crm").css({"display":"block"}).siblings().css({"display":"none"});
+		   $(".soft_con1").css({"background":"url(images/line_select_002.gif)"});
+		}else if(x==2){
+		   $("#xmgl").css({"display":"block"}).siblings().css({"display":"none"});
+		   $(".soft_con1").css({"background":"url(images/line_select_003.gif)"});
+		}else if(x==3){
+		   $("#zsgl").css({"display":"block"}).siblings().css({"display":"none"});
+		   $(".soft_con1").css({"background":"url(images/line_select_004.gif)"});
+		}else{
+		   $("#ydbg").css({"display":"block"}).siblings().css({"display":"none"});
+		   $(".soft_con1").css({"background":"url(images/line_select_005.gif)"});
+		}
+	});
+});
+</script>
+</html>
+
+
+</body></html>
